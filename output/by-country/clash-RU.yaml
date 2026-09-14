@@ -5,47 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - mao
-  server: 147.78.182.3
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 8bf3e040-8ac9-5d0e-304f-9b735e145de8
-  tls: true
-  reality-opts:
-    public-key: Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4
-  servername: dl.kaspersky.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇷🇺 俄罗斯 (Russia) 02 - mao
-  server: 185.39.204.3
-  port: 8098
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: PluSKSrbtxTvlVv7BOUwn4
-- name: 🇷🇺 俄罗斯 (Russia) 03 - mao
-  server: 130.49.189.158
-  port: 43558
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: jIlQi9jGPJd7KHMx6Y4+JbaNoWSWfe2A73U4J4o0Qrs=
-- name: 🇷🇺 俄罗斯 (Russia) 04 - mao
-  server: 131.123.25.3
+  server: 91.196.32.163
   port: 443
   udp: true
-  type: vless
-  uuid: 3a22ca95-bd99-0028-a799-f8f73930ea05
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: 00a61d55a07de885
-  servername: fr.convert-flow.net
-  client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 05 - mao
+  type: hysteria2
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  sni: germany3.h2corp.local
+  skip-cert-verify: true
+- name: 🇷🇺 俄罗斯 (Russia) 02 - mao
   server: 91.240.86.70
   port: 22443
   udp: true
@@ -53,7 +20,7 @@ proxies:
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
   sni: hy.quattro-tech.ru
   skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 (Russia) 06 - mao
+- name: 🇷🇺 俄罗斯 (Russia) 03 - mao
   server: msk.frkn.org
   port: 443
   udp: true
@@ -61,15 +28,7 @@ proxies:
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   sni: msk.frkn.org
   skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 (Russia) 07 - mao
-  server: els1.mangshe.xyz
-  port: 2056
-  udp: true
-  type: hysteria2
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 08 - mao
+- name: 🇷🇺 俄罗斯 (Russia) 04 - mao
   server: 45.12.75.242
   port: 26424
   udp: true
@@ -81,21 +40,20 @@ proxies:
     short-id: 23103e1e
   servername: ya.ru
   client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 09 - mao
-  server: 46.8.200.91
-  port: 443
+- name: 🇷🇺 俄罗斯 (Russia) 05 - mao
+  server: 130.49.189.158
+  port: 43558
   udp: true
-  type: vless
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  tls: true
-  servername: cf3.rumedia-cdn.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /casc
-    headers:
-      Host: cf3.rumedia-cdn.com
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: jIlQi9jGPJd7KHMx6Y4+JbaNoWSWfe2A73U4J4o0Qrs=
+- name: 🇷🇺 俄罗斯 (Russia) 06 - mao
+  server: 185.39.204.3
+  port: 8098
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: PluSKSrbtxTvlVv7BOUwn4
 proxy-groups:
 - name: PROXIES
   type: select
@@ -107,9 +65,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - mao
   - 🇷🇺 俄罗斯 (Russia) 05 - mao
   - 🇷🇺 俄罗斯 (Russia) 06 - mao
-  - 🇷🇺 俄罗斯 (Russia) 07 - mao
-  - 🇷🇺 俄罗斯 (Russia) 08 - mao
-  - 🇷🇺 俄罗斯 (Russia) 09 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -121,8 +76,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - mao
   - 🇷🇺 俄罗斯 (Russia) 05 - mao
   - 🇷🇺 俄罗斯 (Russia) 06 - mao
-  - 🇷🇺 俄罗斯 (Russia) 07 - mao
-  - 🇷🇺 俄罗斯 (Russia) 08 - mao
-  - 🇷🇺 俄罗斯 (Russia) 09 - mao
 rules:
 - MATCH,PROXIES

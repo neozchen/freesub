@@ -28,7 +28,7 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 03 - mao
-  server: 85.204.107.176
+  server: 85.204.107.183
   port: 8080
   udp: true
   type: hysteria2
@@ -36,21 +36,7 @@ proxies:
   sni: hopp-romania-new.roxa.org
   skip-cert-verify: true
 - name: 🇦🇪 阿联酋 (UAE) 04 - mao
-  server: 89.47.55.8
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  tls: true
-  reality-opts:
-    public-key: iVDh09Vm2DqZMNQoUdf-LCZ6TqVGb9mLXnClAK2LRj4
-  servername: www.canon.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇦🇪 阿联酋 (UAE) 05 - mao
-  server: uae.unixzone.us
+  server: 84.235.244.108
   port: 22573
   udp: true
   type: vless
@@ -69,7 +55,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - mao
   - 🇦🇪 阿联酋 (UAE) 03 - mao
   - 🇦🇪 阿联酋 (UAE) 04 - mao
-  - 🇦🇪 阿联酋 (UAE) 05 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -79,6 +64,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - mao
   - 🇦🇪 阿联酋 (UAE) 03 - mao
   - 🇦🇪 阿联酋 (UAE) 04 - mao
-  - 🇦🇪 阿联酋 (UAE) 05 - mao
 rules:
 - MATCH,PROXIES

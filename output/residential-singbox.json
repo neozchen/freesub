@@ -9,28 +9,25 @@
       "server": "36.224.152.189",
       "server_port": 50099,
       "method": "chacha20-ietf-poly1305",
-      "password": "b1ae0fce-9340-4f2e-882d-fdb2218e2e2b"
+      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 02 (家宽) - mao",
-      "server": "45.76.87.125",
-      "server_port": 14750,
-      "uuid": "c2c94230-7075-4558-89f4-ddf74d7de107",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - mao",
+      "server": "hinet1.2yly.com",
+      "server_port": 24215,
+      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
       "tls": {
         "enabled": true,
-        "server_name": "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev",
-        "insecure": false,
+        "server_name": "addons.mozilla.org",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
+          "short_id": ""
         }
       }
     },
@@ -40,7 +37,7 @@
       "outbounds": [
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - mao",
-        "🇯🇵 日本 (Japan) 02 (家宽) - mao"
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - mao"
       ]
     },
     {
@@ -48,7 +45,7 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - mao",
-        "🇯🇵 日本 (Japan) 02 (家宽) - mao"
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
