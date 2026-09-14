@@ -4,34 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "104.17.147.22",
-      "server_port": 443,
-      "password": "Telegram_healer_config",
-      "tls": {
-        "enabled": true,
-        "server_name": "TO6R63-KKChIGHQM2.VxZ0DDUq7tO7su0cDqF.WoRKeRs.DeV",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tr/mPZ7O1CUbIBPGNPZQ2HeV?ed=2560",
-        "headers": {
-          "Host": "to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev"
-        }
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
+      "tag": "🇨🇿 捷克 (Czech) 01 - mao",
       "server": "194.87.59.17",
       "server_port": 2085,
       "uuid": "128314f6-f09a-426f-b758-b8e559c38ddb",
@@ -42,7 +16,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 03 - xiaohe",
+      "tag": "🇨🇿 捷克 (Czech) 02 - mao",
       "server": "194.87.59.12",
       "server_port": 2085,
       "uuid": "128314f6-f09a-426f-b758-b8e559c38ddb",
@@ -56,18 +30,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe",
-        "🇨🇿 捷克 (Czech) 03 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - mao",
+        "🇨🇿 捷克 (Czech) 02 - mao"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe",
-        "🇨🇿 捷克 (Czech) 03 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - mao",
+        "🇨🇿 捷克 (Czech) 02 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

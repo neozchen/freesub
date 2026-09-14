@@ -5,7 +5,7 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe",
+      "tag": "🇵🇰 巴基斯坦 (Pakistan) 01 - mao",
       "server": "64.49.38.9",
       "server_port": 8443,
       "uuid": "4350213a-b4e7-262a-0bd7-bd16957cf71a",
@@ -32,14 +32,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe"
+        "🇵🇰 巴基斯坦 (Pakistan) 01 - mao"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe"
+        "🇵🇰 巴基斯坦 (Pakistan) 01 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
