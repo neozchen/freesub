@@ -23,23 +23,11 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - mao",
-      "server": "vpn-au-002.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "whatsapp.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 04 - mao",
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - mao",
       "server": "au1.gsafevpnapi.com",
       "server_port": 20270,
-      "uuid": "e016d072-ed97-40d4-a83f-04c00f8df2a5",
+      "uuid": "7647b321-4bfe-43f3-b21f-926c5de8f9b6",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -62,8 +50,7 @@
         "auto",
         "🇦🇺 澳大利亚 (Australia) 01 - mao",
         "🇦🇺 澳大利亚 (Australia) 02 - mao",
-        "🇦🇺 澳大利亚 (Australia) 03 - mao",
-        "🇦🇺 澳大利亚 (Australia) 04 - mao"
+        "🇦🇺 澳大利亚 (Australia) 03 - mao"
       ]
     },
     {
@@ -72,8 +59,7 @@
       "outbounds": [
         "🇦🇺 澳大利亚 (Australia) 01 - mao",
         "🇦🇺 澳大利亚 (Australia) 02 - mao",
-        "🇦🇺 澳大利亚 (Australia) 03 - mao",
-        "🇦🇺 澳大利亚 (Australia) 04 - mao"
+        "🇦🇺 澳大利亚 (Australia) 03 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

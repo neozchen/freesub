@@ -22,19 +22,11 @@ proxies:
   ws-opts:
     path: /7586c69d3dc9
 - name: 🇦🇺 澳大利亚 (Australia) 03 - mao
-  server: vpn-au-002.fastervpn.world
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: whatsapp.com
-  skip-cert-verify: true
-- name: 🇦🇺 澳大利亚 (Australia) 04 - mao
   server: au1.gsafevpnapi.com
   port: 20270
   udp: true
   type: vless
-  uuid: e016d072-ed97-40d4-a83f-04c00f8df2a5
+  uuid: 7647b321-4bfe-43f3-b21f-926c5de8f9b6
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
@@ -50,7 +42,6 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 01 - mao
   - 🇦🇺 澳大利亚 (Australia) 02 - mao
   - 🇦🇺 澳大利亚 (Australia) 03 - mao
-  - 🇦🇺 澳大利亚 (Australia) 04 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -59,6 +50,5 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 01 - mao
   - 🇦🇺 澳大利亚 (Australia) 02 - mao
   - 🇦🇺 澳大利亚 (Australia) 03 - mao
-  - 🇦🇺 澳大利亚 (Australia) 04 - mao
 rules:
 - MATCH,PROXIES
