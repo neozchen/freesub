@@ -4,39 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - mao",
-      "server": "162.128.157.164",
-      "server_port": 443,
-      "uuid": "5e8e81ac-a1c4-4543-b81e-651bf9872b54",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "TP_bpIPUtjdxxGA9j7mpsHtSDfM2HMSZFNWW9MtDPT0",
-          "short_id": "14156e3ac23212cc"
-        }
-      }
+      "server": "46.17.40.234",
+      "server_port": 9019,
+      "method": "aes-256-gcm",
+      "password": "bdb313adf74c2ede"
     },
     {
       "type": "vless",
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 - mao",
       "server": "hk-1.gsafevpnapi.com",
       "server_port": 20270,
-      "uuid": "257b0378-01c9-4ded-836d-f94df60bd19c",
+      "uuid": "7647b321-4bfe-43f3-b21f-926c5de8f9b6",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "www.yahoo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -58,53 +45,41 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - mao",
-      "server": "1e6f6f22-tlsio0-tmt4ym-ezjz.nw4.hyhuawei.com",
-      "server_port": 443,
-      "password": "591ac730-bd6f-11ed-a8bf-f23c91cfbbc9",
-      "tls": {
-        "enabled": true,
-        "server_name": "1e6f6f22-tlsio0-tmt4ym-ezjz.nw4.hyhuawei.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - mao",
-      "server": "202.146.222.174",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "202.146.222.174",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - mao",
-      "server": "hk3.miyazono-kaori.com",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - mao",
+      "server": "vj37-1936vtw.fincore.top",
       "server_port": 443,
-      "uuid": "f3c10b66-6a02-499f-9ed5-e518be4dde61",
+      "uuid": "5e8e81ac-a1c4-4543-b81e-651bf9872b54",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "hk4e-launcher-static.hoyoverse.com",
+        "server_name": "www.bing.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "zV4Sja0iajpdzkR1iBMbI7RRWL2nlpgwGOtirQSG-zc",
-          "short_id": "b81edf7fdee4"
+          "public_key": "TP_bpIPUtjdxxGA9j7mpsHtSDfM2HMSZFNWW9MtDPT0",
+          "short_id": "14156e3ac23212cc"
         }
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - mao",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - mao",
+      "server": "202.146.222.29",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https://t.me/wangcai2рҹү",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - mao",
       "server": "202.146.222.89",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
@@ -116,82 +91,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - mao",
-      "server": "hk4.miyazono-kaori.com",
-      "server_port": 443,
-      "uuid": "f3c10b66-6a02-499f-9ed5-e518be4dde61",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk4e-launcher-static.hoyoverse.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA",
-          "short_id": "ea6b43"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - mao",
-      "server": "hk5.miyazono-kaori.com",
-      "server_port": 443,
-      "uuid": "f3c10b66-6a02-499f-9ed5-e518be4dde61",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.hsbc.com.hk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HbjpGbCmp7lBysnS-twEYgGoriXACHZQObIpU9zJWVc",
-          "short_id": "a273e9ee6ac0a466"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 10 - mao",
-      "server": "hk6.miyazono-kaori.com",
-      "server_port": 443,
-      "uuid": "f3c10b66-6a02-499f-9ed5-e518be4dde61",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.hsbc.com.hk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "2kl8isq7ajNv3BR6Z1EPag_LqJHmsfo2pn0dA7yetko",
-          "short_id": "a2d13d677624197e"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 11 - mao",
-      "server": "202.146.222.29",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 12 - mao",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - mao",
       "server": "34.92.123.152",
       "server_port": 443,
       "uuid": "5d77df4a-0b55-4597-b0e6-ae3ef70a72c0",
@@ -211,14 +111,26 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - mao",
+      "server": "202.146.222.174",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https://t.me/wangcai2🇨🇳",
+        "insecure": true
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 13 - mao",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - mao",
       "server": "119.246.1.143",
       "server_port": 443,
       "password": "BxceQaOe",
       "tls": {
         "enabled": true,
-        "server_name": "t.me",
+        "server_name": "t.me%252fripaojiedian",
         "insecure": true
       }
     },
@@ -235,11 +147,7 @@
         "🇭🇰 中国香港 (Hong Kong) 06 - mao",
         "🇭🇰 中国香港 (Hong Kong) 07 - mao",
         "🇭🇰 中国香港 (Hong Kong) 08 - mao",
-        "🇭🇰 中国香港 (Hong Kong) 09 - mao",
-        "🇭🇰 中国香港 (Hong Kong) 10 - mao",
-        "🇭🇰 中国香港 (Hong Kong) 11 - mao",
-        "🇭🇰 中国香港 (Hong Kong) 12 - mao",
-        "🇭🇰 中国香港 (Hong Kong) 13 - mao"
+        "🇭🇰 中国香港 (Hong Kong) 09 - mao"
       ]
     },
     {
@@ -254,11 +162,7 @@
         "🇭🇰 中国香港 (Hong Kong) 06 - mao",
         "🇭🇰 中国香港 (Hong Kong) 07 - mao",
         "🇭🇰 中国香港 (Hong Kong) 08 - mao",
-        "🇭🇰 中国香港 (Hong Kong) 09 - mao",
-        "🇭🇰 中国香港 (Hong Kong) 10 - mao",
-        "🇭🇰 中国香港 (Hong Kong) 11 - mao",
-        "🇭🇰 中国香港 (Hong Kong) 12 - mao",
-        "🇭🇰 中国香港 (Hong Kong) 13 - mao"
+        "🇭🇰 中国香港 (Hong Kong) 09 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
