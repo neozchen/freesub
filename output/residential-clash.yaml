@@ -4,36 +4,33 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (家宽) - mao
-  server: 162.159.48.32
-  port: 2082
+- name: 🇯🇵 日本 (Japan) 01 (家宽) - mao
+  server: 210.152.85.154
+  port: 19364
   udp: true
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: '/?ed=2560security=tls '
+    path: /collect/user/products?ed=2560
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 02 (家宽) - mao
-  server: 162.159.24.131
-  port: 2052
+      Host: cdn8848.776676.xyz
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - mao
+  server: hg.zhujue.us
+  port: 11000
   udp: true
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  uuid: 0e46345c-f33b-4f9b-b8ec-90e7c986af7e
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: sFRyah8EOSGcab8TfIdkq53c5HBSwAVfYQCyvZ0_BG4
+  servername: s0.awsstatic.com
+  client-fingerprint: chrome
 - name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - mao
-  server: 36.224.185.173
-  port: 50099
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - mao
   server: 7dba81fc3a0b.oylfmxz.cn
   port: 443
   udp: true
@@ -47,39 +44,23 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - mao
-  server: 82259754d625.oylfmxz.cn
-  port: 443
-  udp: true
-  type: vmess
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: 82259754d625.oylfmxz.cn
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
+    headers:
+      Host: 7dba81fc3a0b.oylfmxz.cn
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (家宽) - mao
-  - 🇺🇸 美国 (United States) 02 (家宽) - mao
+  - 🇯🇵 日本 (Japan) 01 (家宽) - mao
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - mao
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - mao
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - mao
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (家宽) - mao
-  - 🇺🇸 美国 (United States) 02 (家宽) - mao
+  - 🇯🇵 日本 (Japan) 01 (家宽) - mao
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - mao
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - mao
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - mao
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - mao
 rules:
 - MATCH,PROXIES
