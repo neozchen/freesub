@@ -6,6 +6,18 @@
     {
       "type": "hysteria2",
       "tag": "🇷🇴 罗马尼亚 (Romania) 01 - mao",
+      "server": "162.249.126.6",
+      "server_port": 8443,
+      "password": "9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z",
+      "tls": {
+        "enabled": true,
+        "server_name": "hopp-germany-new.ddnsguru.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - mao",
       "server": "85.204.107.177",
       "server_port": 8443,
       "password": "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0",
@@ -16,16 +28,12 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - mao",
-      "server": "162.249.126.2",
-      "server_port": 8443,
-      "password": "9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z",
-      "tls": {
-        "enabled": true,
-        "server_name": "hopp-germany-new.ddnsguru.com",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - mao",
+      "server": "bogging-eyeteeth-fly.freesocks.work",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
     },
     {
       "type": "selector",
@@ -33,7 +41,8 @@
       "outbounds": [
         "auto",
         "🇷🇴 罗马尼亚 (Romania) 01 - mao",
-        "🇷🇴 罗马尼亚 (Romania) 02 - mao"
+        "🇷🇴 罗马尼亚 (Romania) 02 - mao",
+        "🇷🇴 罗马尼亚 (Romania) 03 - mao"
       ]
     },
     {
@@ -41,7 +50,8 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇴 罗马尼亚 (Romania) 01 - mao",
-        "🇷🇴 罗马尼亚 (Romania) 02 - mao"
+        "🇷🇴 罗马尼亚 (Romania) 02 - mao",
+        "🇷🇴 罗马尼亚 (Romania) 03 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
