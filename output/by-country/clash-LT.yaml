@@ -4,24 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - mao
-  server: 36.224.185.173
-  port: 50099
+- name: 🇱🇹 立陶宛 (Lithuania) 01 - mao
+  server: 195.238.126.20
+  port: 9002
   udp: true
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  cipher: aes-256-cfb
+  password: b8KkNDjEd5QqFyRm
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - mao
+  - 🇱🇹 立陶宛 (Lithuania) 01 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - mao
+  - 🇱🇹 立陶宛 (Lithuania) 01 - mao
 rules:
 - MATCH,PROXIES
