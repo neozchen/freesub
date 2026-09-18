@@ -5,47 +5,52 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - mao",
-      "server": "210.152.85.154",
-      "server_port": 19364,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tag": "🇬🇧 英国 (United Kingdom) 01 (家宽) - mao",
+      "server": "162.159.153.4",
+      "server_port": 443,
+      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
+        "server_name": "rAyAn-007.mAxImA.DpDnS.OrG",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/collect/user/products?ed=2560",
+        "path": "/",
+        "headers": {
+          "Host": "rAyAn-007.mAxImA.DpDnS.OrG"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - mao",
+      "server": "36.224.185.173",
+      "server_port": 50099,
+      "method": "chacha20-ietf-poly1305",
+      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 德国 (Germany) 03 (家宽) - mao",
+      "server": "188.130.207.30",
+      "server_port": 2053,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
       }
     },
     {
-      "type": "vless",
-      "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - mao",
-      "server": "hg.zhujue.us",
-      "server_port": 11000,
-      "uuid": "0e46345c-f33b-4f9b-b8ec-90e7c986af7e",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "s0.awsstatic.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "sFRyah8EOSGcab8TfIdkq53c5HBSwAVfYQCyvZ0_BG4",
-          "short_id": ""
-        }
-      }
-    },
-    {
       "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - mao",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - mao",
       "server": "7dba81fc3a0b.oylfmxz.cn",
       "server_port": 443,
       "uuid": "d90e4077-bc7e-414d-a650-70bf1baae4d6",
@@ -56,10 +61,27 @@
         "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "7dba81fc3a0b.oylfmxz.cn"
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 05 (家宽) - mao",
+      "server": "tic-1.serbia-maki.stream",
+      "server_port": 443,
+      "uuid": "e78c9b0e-2e52-3ca8-bae2-ed04d8894f61",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "is1-ssl.mzstatic.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "eS4gz2nWkErpiOaeRnumjNKdmVDG1Vor8ToY79J20Gg",
+          "short_id": "bcdbf4c73ce16565"
         }
       }
     },
@@ -68,18 +90,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇯🇵 日本 (Japan) 01 (家宽) - mao",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - mao",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - mao"
+        "🇬🇧 英国 (United Kingdom) 01 (家宽) - mao",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - mao",
+        "🇩🇪 德国 (Germany) 03 (家宽) - mao",
+        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - mao",
+        "🇺🇸 美国 (United States) 05 (家宽) - mao"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇯🇵 日本 (Japan) 01 (家宽) - mao",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - mao",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - mao"
+        "🇬🇧 英国 (United Kingdom) 01 (家宽) - mao",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - mao",
+        "🇩🇪 德国 (Germany) 03 (家宽) - mao",
+        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - mao",
+        "🇺🇸 美国 (United States) 05 (家宽) - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
