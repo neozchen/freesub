@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - mao
-  server: 104.18.34.14
+  server: 172.64.53.55
   port: 8080
   udp: true
   type: vless
@@ -16,7 +16,7 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 02 - mao
-  server: 104.18.46.46
+  server: 162.159.24.131
   port: 2052
   udp: true
   type: vless
@@ -27,54 +27,20 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 03 - mao
-  server: 172.64.83.52
-  port: 443
-  udp: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  tls: true
-  servername: 7bzzv.umtm.n70.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 7bzzv.umtm.n70.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 04 - mao
-  server: 172.64.42.85
-  port: 2086
-  udp: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 05 - mao
   server: 94.249.187.46
   port: 1080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: IXa3ylzS_jBOAsQy071tIQ
-- name: 🇷🇺 俄罗斯 (Russia) 06 - mao
+- name: 🇷🇺 俄罗斯 (Russia) 04 - mao
   server: 195.133.5.102
   port: 10900
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: 895b4b796a357570
-- name: 🇷🇺 俄罗斯 (Russia) 07 - mao
-  server: 91.196.32.163
-  port: 443
-  udp: true
-  type: hysteria2
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  sni: germany3.h2corp.local
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 08 - mao
+- name: 🇷🇺 俄罗斯 (Russia) 05 - mao
   server: 91.240.86.70
   port: 22443
   udp: true
@@ -82,7 +48,7 @@ proxies:
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
   sni: hy.quattro-tech.ru
   skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 09 - mao
+- name: 🇷🇺 俄罗斯 (Russia) 06 - mao
   server: 104.245.240.8
   port: 8443
   udp: true
@@ -96,20 +62,20 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
-- name: 🇷🇺 俄罗斯 (Russia) 10 - mao
-  server: xssite.webredirect.org
-  port: 443
+- name: 🇷🇺 俄罗斯 (Russia) 07 - mao
+  server: 130.49.189.158
+  port: 45433
   udp: true
   type: vless
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  uuid: 4ea67585-c211-4358-9173-cbdff7a6aede
+  flow: xtls-rprx-vision
   tls: true
-  servername: xssite.webredirect.org
-  skip-cert-verify: false
-  client-fingerprint: random
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-ru
-- name: 🇷🇺 俄罗斯 (Russia) 11 - mao
+  reality-opts:
+    public-key: dfJb8gJq6IRsE1KMsfZp5tNLiwBNQMbSl5NF1z5dq3c
+    short-id: 5e101cd5
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 08 - mao
   server: msk.frkn.org
   port: 443
   udp: true
@@ -117,13 +83,27 @@ proxies:
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   sni: msk.frkn.org
   skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 12 - mao
-  server: 134.0.112.71
-  port: 17517
+- name: 🇷🇺 俄罗斯 (Russia) 09 - mao
+  server: 130.49.189.158
+  port: 43558
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: 64Kms+G+nD6FlGJjZJfeUNJIGbX/EKrk2o/MH04zApw=
+  cipher: chacha20-ietf-poly1305
+  password: 5dLyPJpSV+QyXFRj+S0dt6xFKHxtcXEkRO/TzJGzryU=
+- name: 🇷🇺 俄罗斯 (Russia) 10 - mao
+  server: 46.8.200.91
+  port: 443
+  udp: true
+  type: vless
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
+  tls: true
+  servername: cf3.rumedia-cdn.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf3.rumedia-cdn.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -139,8 +119,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 08 - mao
   - 🇷🇺 俄罗斯 (Russia) 09 - mao
   - 🇷🇺 俄罗斯 (Russia) 10 - mao
-  - 🇷🇺 俄罗斯 (Russia) 11 - mao
-  - 🇷🇺 俄罗斯 (Russia) 12 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -156,7 +134,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 08 - mao
   - 🇷🇺 俄罗斯 (Russia) 09 - mao
   - 🇷🇺 俄罗斯 (Russia) 10 - mao
-  - 🇷🇺 俄罗斯 (Russia) 11 - mao
-  - 🇷🇺 俄罗斯 (Russia) 12 - mao
 rules:
 - MATCH,PROXIES
