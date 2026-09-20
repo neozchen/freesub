@@ -6,6 +6,33 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 01 - mao",
+      "server": "104.143.223.50",
+      "server_port": 2089,
+      "uuid": "d144d943-46bd-41ce-af2c-06358c845616",
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - mao",
+      "server": "130.49.161.70",
+      "server_port": 443,
+      "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2.aspidnet.xyz",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 03 - mao",
       "server": "94.183.224.45",
       "server_port": 443,
       "uuid": "d72f05b0-b182-4783-a6f2-21cecc7d841a",
@@ -26,24 +53,8 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - mao",
-      "server": "130.49.161.70",
-      "server_port": 443,
-      "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
-      "tls": {
-        "enabled": true,
-        "server_name": "hy2.aspidnet.xyz",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇦🇪 阿联酋 (UAE) 03 - mao",
-      "server": "85.204.107.181",
+      "tag": "🇦🇪 阿联酋 (UAE) 04 - mao",
+      "server": "85.204.107.171",
       "server_port": 8080,
       "password": "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0",
       "tls": {
@@ -54,7 +65,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 04 - mao",
+      "tag": "🇦🇪 阿联酋 (UAE) 05 - mao",
       "server": "uae.unixzone.us",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
@@ -67,6 +78,27 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 06 - mao",
+      "server": "31.58.181.88",
+      "server_port": 8443,
+      "uuid": "4a64b0c2-de7e-4e32-b931-247be6dc4488",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tradingview.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc",
+          "short_id": ""
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -74,7 +106,9 @@
         "🇦🇪 阿联酋 (UAE) 01 - mao",
         "🇦🇪 阿联酋 (UAE) 02 - mao",
         "🇦🇪 阿联酋 (UAE) 03 - mao",
-        "🇦🇪 阿联酋 (UAE) 04 - mao"
+        "🇦🇪 阿联酋 (UAE) 04 - mao",
+        "🇦🇪 阿联酋 (UAE) 05 - mao",
+        "🇦🇪 阿联酋 (UAE) 06 - mao"
       ]
     },
     {
@@ -84,7 +118,9 @@
         "🇦🇪 阿联酋 (UAE) 01 - mao",
         "🇦🇪 阿联酋 (UAE) 02 - mao",
         "🇦🇪 阿联酋 (UAE) 03 - mao",
-        "🇦🇪 阿联酋 (UAE) 04 - mao"
+        "🇦🇪 阿联酋 (UAE) 04 - mao",
+        "🇦🇪 阿联酋 (UAE) 05 - mao",
+        "🇦🇪 阿联酋 (UAE) 06 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
