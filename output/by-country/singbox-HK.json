@@ -4,24 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - mao",
-      "server": "47.238.210.5",
-      "server_port": 13779,
-      "uuid": "928e6cce-8ced-4243-9a48-a6642edd09b0",
-      "tls": {
-        "enabled": true,
-        "server_name": "tesla.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg",
-          "short_id": "af1bdd293097b664"
-        }
-      }
+      "server": "89.223.95.77",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto"
     },
     {
       "type": "hysteria2",
@@ -31,19 +19,19 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "202.146.222.174",
+        "server_name": "https://t.me/wangcai2",
         "insecure": true
       }
     },
     {
-      "type": "trojan",
+      "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 - mao",
-      "server": "119.246.1.143",
+      "server": "202.146.222.29",
       "server_port": 443,
-      "password": "BxceQaOe",
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "t.me",
+        "server_name": "https://t.me/wangcai2üá",
         "insecure": true
       }
     },
@@ -55,29 +43,28 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "off",
+        "server_name": "https%3a%2f%2ft.me%2fclashv8",
         "insecure": true
       }
     },
     {
       "type": "vless",
       "tag": "🇭🇰 中国香港 (Hong Kong) 05 - mao",
-      "server": "160.30.54.63",
+      "server": "47.238.126.123",
       "server_port": 443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "uuid": "bf41cc32-f0a2-4b27-ba9f-8026ce0aed84",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": true,
+        "server_name": "www.amazon.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "cdn8848.776676.xyz"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4IeLDkxPTFecGeobLaxV9XaVW7oBgcqwW2dvfFtPQD4",
+          "short_id": "7771265f0b109528"
         }
       }
     },
@@ -94,6 +81,53 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - mao",
+      "server": "104.16.60.10",
+      "server_port": 443,
+      "uuid": "cdf5205e-897f-46a7-8d7f-21a61a80b466",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk1.69lover.my",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v2/e2fe4e52a165854d/stream",
+        "headers": {
+          "Host": "hk1.69lover.my"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - mao",
+      "server": "38.207.177.203",
+      "server_port": 24681,
+      "uuid": "5d2a0ea5-9563-4778-aed4-c97ec0e5f2a8",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "aws.amazon.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "t-BhtrNH7C1zTuLOuBu4tXeIv3JR-cN88pVFywIkti4",
+          "short_id": ""
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -103,7 +137,9 @@
         "🇭🇰 中国香港 (Hong Kong) 03 - mao",
         "🇭🇰 中国香港 (Hong Kong) 04 - mao",
         "🇭🇰 中国香港 (Hong Kong) 05 - mao",
-        "🇭🇰 中国香港 (Hong Kong) 06 - mao"
+        "🇭🇰 中国香港 (Hong Kong) 06 - mao",
+        "🇭🇰 中国香港 (Hong Kong) 07 - mao",
+        "🇭🇰 中国香港 (Hong Kong) 08 - mao"
       ]
     },
     {
@@ -115,7 +151,9 @@
         "🇭🇰 中国香港 (Hong Kong) 03 - mao",
         "🇭🇰 中国香港 (Hong Kong) 04 - mao",
         "🇭🇰 中国香港 (Hong Kong) 05 - mao",
-        "🇭🇰 中国香港 (Hong Kong) 06 - mao"
+        "🇭🇰 中国香港 (Hong Kong) 06 - mao",
+        "🇭🇰 中国香港 (Hong Kong) 07 - mao",
+        "🇭🇰 中国香港 (Hong Kong) 08 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -6,6 +6,20 @@
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 01 - mao",
+      "server": "172.64.32.103",
+      "server_port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 02 - mao",
       "server": "138.124.60.146",
       "server_port": 443,
       "uuid": "bbfd1f68-ec64-452f-8404-9e2bcf1df951",
@@ -26,7 +40,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 02 - mao",
+      "tag": "🇨🇭 瑞士 (Switzerland) 03 - mao",
       "server": "82.38.64.229",
       "server_port": 8443,
       "password": "we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH",
@@ -38,7 +52,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 03 - mao",
+      "tag": "🇨🇭 瑞士 (Switzerland) 04 - mao",
       "server": "151.242.2.81",
       "server_port": 443,
       "uuid": "0a2dde28-70da-4863-a06f-35d007d94d35",
@@ -62,7 +76,8 @@
         "auto",
         "🇨🇭 瑞士 (Switzerland) 01 - mao",
         "🇨🇭 瑞士 (Switzerland) 02 - mao",
-        "🇨🇭 瑞士 (Switzerland) 03 - mao"
+        "🇨🇭 瑞士 (Switzerland) 03 - mao",
+        "🇨🇭 瑞士 (Switzerland) 04 - mao"
       ]
     },
     {
@@ -71,7 +86,8 @@
       "outbounds": [
         "🇨🇭 瑞士 (Switzerland) 01 - mao",
         "🇨🇭 瑞士 (Switzerland) 02 - mao",
-        "🇨🇭 瑞士 (Switzerland) 03 - mao"
+        "🇨🇭 瑞士 (Switzerland) 03 - mao",
+        "🇨🇭 瑞士 (Switzerland) 04 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,17 +5,47 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - mao
-  server: 199.232.78.101
+  server: 216.106.187.60
+  port: 22324
+  udp: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+- name: 🇩🇪 德国 (Germany) 02 - mao
+  server: 185.226.172.8
+  port: 8008
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 🇩🇪 德国 (Germany) 03 - mao
+  server: 144.31.168.95
   port: 443
   udp: true
-  type: trojan
-  password: MiTIVPN
-  sni: ssl.fastly.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇩🇪 德国 (Germany) 02 - mao
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  servername: eu-central.cendora.ru
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 04 - mao
+  server: 103.109.234.246
+  port: 443
+  udp: true
+  type: vless
+  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: z_Rn0Vvq1GB39RhN6v7DhdtD-kS0XZa_je0h-no_hWs
+    short-id: 59eee550a1014198
+  servername: de10.delivery-4f1c.com
+  client-fingerprint: random
+- name: 🇩🇪 德国 (Germany) 05 - mao
   server: 31.56.189.27
   port: 2087
   udp: true
@@ -24,52 +54,22 @@ proxies:
   tls: true
   servername: srv-21bac9.vless.monster
   skip-cert-verify: false
-  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: freegrpc
-- name: 🇩🇪 德国 (Germany) 03 - mao
-  server: 185.226.172.8
-  port: 8008
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- name: 🇩🇪 德国 (Germany) 04 - mao
-  server: 82.118.19.153
+- name: 🇩🇪 德国 (Germany) 06 - mao
+  server: 88.216.132.34
   port: 443
   udp: true
   type: vless
-  uuid: adcaa148-7c66-4282-a81a-99ec8afa029d
+  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
-    short-id: 670ed9f350bd8ee0
-  servername: www.cloudflare.com
-  client-fingerprint: ''
-- name: 🇩🇪 德国 (Germany) 05 - mao
-  server: 212.80.7.129
-  port: 6215
-  udp: true
-  type: vless
-  uuid: 2f2ae482-5a3e-455e-aad6-4ac28a82f64f
-  tls: true
-  servername: cdn.astranet.ignorelist.com
-  skip-cert-verify: false
-  network: grpc
-  grpc-opts:
-    grpc-service-name: api.v1.ApiService
-- name: 🇩🇪 德国 (Germany) 06 - mao
-  server: 57.129.96.67
-  port: 443
-  udp: true
-  type: vless
-  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
-  flow: xtls-rprx-vision
-  tls: true
-  servername: nasnet-571299667-direct.mbghalibaf.com
-  skip-cert-verify: false
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: 2e9f4c7b1a8d6e3f
+  servername: battle.abyssettle.net
+  client-fingerprint: safari
 - name: 🇩🇪 德国 (Germany) 07 - mao
   server: 162.55.242.208
   port: 2053
@@ -81,8 +81,80 @@ proxies:
     public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
     short-id: 4d14da19b19cfc8c
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇩🇪 德国 (Germany) 08 - mao
+  server: 212.80.7.129
+  port: 6215
+  udp: true
+  type: vless
+  uuid: 2f2ae482-5a3e-455e-aad6-4ac28a82f64f
+  tls: true
+  servername: cdn.astranet.ignorelist.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: api.v1.ApiService
+- name: 🇩🇪 德国 (Germany) 09 - mao
+  server: de10.delivery-4f1c.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: z_Rn0Vvq1GB39RhN6v7DhdtD-kS0XZa_je0h-no_hWs
+    short-id: 59eee550a1014198
+  servername: de10.delivery-4f1c.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 10 - mao
+  server: assets-de.pleiades.codes
+  port: 443
+  udp: true
+  type: vless
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  tls: true
+  servername: assets-de.pleiades.codes
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+- name: 🇩🇪 德国 (Germany) 11 - mao
+  server: 57.129.96.67
+  port: 443
+  udp: true
+  type: vless
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  flow: xtls-rprx-vision
+  tls: true
+  servername: nasnet-571299667-direct.mbghalibaf.com
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 12 - mao
+  server: 163.8.195.241
+  port: 2087
+  udp: true
+  type: vless
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  network: ws
+  ws-opts:
+    path: /29c8fed7ca22
+- name: 🇩🇪 德国 (Germany) 13 - mao
+  server: 5.104.107.80
+  port: 2053
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇩🇪 德国 (Germany) 14 - mao
   server: 146.185.178.18
   port: 443
   udp: true
@@ -97,93 +169,22 @@ proxies:
     path: /
     headers:
       Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 09 - mao
-  server: assets-de.pleiades.codes
-  port: 443
-  udp: true
-  type: vless
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-  tls: true
-  servername: assets-de.pleiades.codes
-  skip-cert-verify: false
-  network: grpc
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-- name: 🇩🇪 德国 (Germany) 10 - mao
-  server: 31.59.121.156
-  port: 2053
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 11 - mao
-  server: 138.68.142.165
-  port: 2053
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /resource/channel
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 12 - mao
-  server: 129.151.64.169
-  port: 31867
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /files
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 13 - mao
-  server: 147.90.89.173
-  port: 443
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 14 - mao
-  server: 188.130.207.30
-  port: 2053
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn8848.776676.xyz
 - name: 🇩🇪 德国 (Germany) 15 - mao
-  server: 172.237.120.201
-  port: 443
+  server: 89.169.53.176
+  port: 4443
+  udp: true
+  type: vless
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: YIyohkkCU5kw6J5iZYZkhILyDwlfftFPDTkbITlrAUw
+    short-id: df3aff719526dc5a
+  servername: de.wvpn.one
+  client-fingerprint: firefox
+- name: 🇩🇪 德国 (Germany) 16 - mao
+  server: 64.225.110.247
+  port: 2083
   udp: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
@@ -195,15 +196,22 @@ proxies:
     path: /
     headers:
       Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 16 - mao
-  server: de-node.rumedia-cdn.com
-  port: 25443
-  udp: true
-  type: hysteria2
-  password: 29ffde49-e1d6-4dcd-a135-352920f9f0b8
-  sni: cf6.rumedia-cdn.com
-  skip-cert-verify: true
 - name: 🇩🇪 德国 (Germany) 17 - mao
+  server: 164.92.137.46
+  port: 2083
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /bt/streaming/ad?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇩🇪 德国 (Germany) 18 - mao
   server: 64.225.65.116
   port: 8443
   udp: true
@@ -218,32 +226,18 @@ proxies:
     path: /bd/pictures?ed=2560
     headers:
       Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 18 - mao
-  server: 93.123.101.215
-  port: 443
-  udp: true
-  type: vless
-  uuid: dcf8e133-09a2-4884-abf9-80356bb334ac
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: xcTXD3of3Yt5hHdIwYGZ1LjMBgiL6sqj5J33J4U4ozM
-    short-id: a7c31f92
-  servername: emil.atlasparser.site
-  client-fingerprint: chrome
 - name: 🇩🇪 德国 (Germany) 19 - mao
-  server: 202.181.177.8
-  port: 8443
+  server: 147.90.89.173
+  port: 443
   udp: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
   servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /channels/act
+    path: /
     headers:
       Host: cdn8848.776676.xyz
 - name: 🇩🇪 德国 (Germany) 20 - mao
@@ -262,167 +256,6 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
 - name: 🇩🇪 德国 (Germany) 21 - mao
-  server: 31.59.46.140
-  port: 8443
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /travel/intro?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 22 - mao
-  server: 89.110.66.154
-  port: 443
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 23 - mao
-  server: 64.225.110.247
-  port: 2083
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 24 - mao
-  server: 194.154.29.139
-  port: 8443
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /retrieve/txt?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 25 - mao
-  server: 5.101.114.44
-  port: 2053
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /collection/directory?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 26 - mao
-  server: 103.251.167.112
-  port: 8443
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /library/lang
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 27 - mao
-  server: 103.109.234.246
-  port: 443
-  udp: true
-  type: vless
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: z_Rn0Vvq1GB39RhN6v7DhdtD-kS0XZa_je0h-no_hWs
-    short-id: 59eee550a1014198
-  servername: de10.delivery-4f1c.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 28 - mao
-  server: 132.243.203.207
-  port: 8443
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /lives?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 29 - mao
-  server: 164.92.137.46
-  port: 2083
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /bt/streaming/ad?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 30 - mao
-  server: 193.181.216.117
-  port: 2053
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 31 - mao
-  server: de3-node.rumedia-cdn.com
-  port: 2096
-  udp: true
-  type: vless
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  tls: true
-  servername: st3f6d.rumedia-cdn.com
-  skip-cert-verify: false
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: st3f6d.rumedia-cdn.com
-- name: 🇩🇪 德国 (Germany) 32 - mao
   server: 185.125.100.76
   port: 8443
   udp: true
@@ -437,22 +270,9 @@ proxies:
     path: /trade/game/movies
     headers:
       Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 33 - mao
-  server: 82.39.171.142
-  port: 443
-  udp: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  servername: yahoo.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 34 - mao
-  server: 176.124.220.173
-  port: 8443
+- name: 🇩🇪 德国 (Germany) 22 - mao
+  server: 193.181.216.117
+  port: 2053
   udp: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
@@ -465,23 +285,22 @@ proxies:
     path: /
     headers:
       Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 35 - mao
-  server: 157.173.125.214
-  port: 2087
+- name: 🇩🇪 德国 (Germany) 23 - mao
+  server: 172.237.120.201
+  port: 443
   udp: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
   servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /redirect/china/view?ed=2560
+    path: /
     headers:
       Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 36 - mao
-  server: 185.113.223.183
+- name: 🇩🇪 德国 (Germany) 24 - mao
+  server: 103.251.167.112
   port: 8443
   udp: true
   type: vless
@@ -492,20 +311,24 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /channels/act
+    path: /library/lang
     headers:
       Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 37 - mao
-  server: 163.8.195.241
-  port: 2087
+- name: 🇩🇪 德国 (Germany) 25 - mao
+  server: 82.118.19.153
+  port: 443
   udp: true
   type: vless
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  network: ws
-  ws-opts:
-    path: /29c8fed7ca22
-- name: 🇩🇪 德国 (Germany) 38 - mao
-  server: 144.31.28.106
+  uuid: adcaa148-7c66-4282-a81a-99ec8afa029d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
+    short-id: 670ed9f350bd8ee0
+  servername: www.cloudflare.com
+  client-fingerprint: ''
+- name: 🇩🇪 德国 (Germany) 26 - mao
+  server: 132.243.203.207
   port: 8443
   udp: true
   type: vless
@@ -513,19 +336,87 @@ proxies:
   tls: true
   servername: cdn8848.776676.xyz
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /trade
+    path: /lives?ed=2560
     headers:
       Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 39 - mao
-  server: 130.61.227.189
-  port: 59924
+- name: 🇩🇪 德国 (Germany) 27 - mao
+  server: 188.130.207.30
+  port: 2053
   udp: true
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: EPNhE9qvdzvZpDTA6OzRwv1CsK7SFcOahpqDmNOGM/w=
-- name: 🇩🇪 德国 (Germany) 40 - mao
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇩🇪 德国 (Germany) 28 - mao
+  server: 138.68.142.165
+  port: 2053
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /resource/channel
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇩🇪 德国 (Germany) 29 - mao
+  server: 144.31.218.10
+  port: 443
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /archives/play/pages?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇩🇪 德国 (Germany) 30 - mao
+  server: 132.243.203.218
+  port: 8443
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /v?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇩🇪 德国 (Germany) 31 - mao
+  server: 46.101.230.110
+  port: 443
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /drama?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇩🇪 德国 (Germany) 32 - mao
   server: 103.31.77.108
   port: 2053
   udp: true
@@ -540,8 +431,21 @@ proxies:
     path: /channels/act
     headers:
       Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 41 - mao
-  server: 157.228.142.148
+- name: 🇩🇪 德国 (Germany) 33 - mao
+  server: 82.39.171.12
+  port: 443
+  udp: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  servername: yahoo.com
+  client-fingerprint: ios
+- name: 🇩🇪 德国 (Germany) 34 - mao
+  server: 132.243.203.243
   port: 8443
   udp: true
   type: vless
@@ -552,37 +456,256 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /act/rank/lang?ed=2560
+    path: /archive?ed=2560
     headers:
       Host: cdn8848.776676.xyz
-- name: 🇩🇪 德国 (Germany) 42 - mao
-  server: 116.202.2.27
+- name: 🇩🇪 德国 (Germany) 35 - mao
+  server: 129.151.64.169
+  port: 31867
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /files
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇩🇪 德国 (Germany) 36 - mao
+  server: 5.101.114.44
   port: 2053
   udp: true
   type: vless
-  uuid: 0f2b674f-1855-47d3-aa4e-e5e3c637ebcf
-  flow: xtls-rprx-vision
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
-  reality-opts:
-    public-key: kQ80VUyUaQF2Qczqb4XqnNdGD8pYwuVNqBEezMjtBTc
-    short-id: 72a35f6d88599886
-  servername: 91.98.44.116
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 43 - mao
-  server: 188.72.103.4
+  network: ws
+  ws-opts:
+    path: /collection/directory?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇩🇪 德国 (Germany) 37 - mao
+  server: 5.101.115.117
+  port: 8443
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇩🇪 德国 (Germany) 38 - mao
+  server: 89.110.66.154
   port: 443
   udp: true
   type: vless
-  uuid: 1f959100-a98b-47fb-84fa-359246dc458a
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
-  servername: apicdn.4subnodes.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /apiv1/esa1-asda2jcvnbpseflkn-kjweksad
+    path: /
     headers:
-      Host: apicdn.4subnodes.com
+      Host: cdn8848.776676.xyz
+- name: 🇩🇪 德国 (Germany) 39 - mao
+  server: 172.67.185.153
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 522df6b1-a110-4163-a92f-9935561b1f77
+  tls: true
+  servername: de.huge-b.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Artemis_Vpn
+    headers:
+      Host: de.huge-b.com
+- name: 🇩🇪 德国 (Germany) 40 - mao
+  server: 176.124.220.173
+  port: 8443
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇩🇪 德国 (Germany) 41 - mao
+  server: 62.60.152.31
+  port: 443
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /go.php?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇩🇪 德国 (Germany) 42 - mao
+  server: 157.173.125.214
+  port: 2087
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /redirect/china/view?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇩🇪 德国 (Germany) 43 - mao
+  server: 202.181.177.8
+  port: 8443
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /channels/act
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇩🇪 德国 (Germany) 44 - mao
+  server: 93.123.101.215
+  port: 443
+  udp: true
+  type: vless
+  uuid: dcf8e133-09a2-4884-abf9-80356bb334ac
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: xcTXD3of3Yt5hHdIwYGZ1LjMBgiL6sqj5J33J4U4ozM
+    short-id: a7c31f92
+  servername: emil.atlasparser.site
+  client-fingerprint: safari
+- name: 🇩🇪 德国 (Germany) 45 - mao
+  server: 144.31.28.106
+  port: 8443
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /trade
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇩🇪 德国 (Germany) 46 - mao
+  server: 31.59.121.156
+  port: 2053
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇩🇪 德国 (Germany) 47 - mao
+  server: 81.17.154.115
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 88ade4e2-36b9-4f36-b274-d633f12a47b2
+  tls: true
+  servername: www.skyboost.ru
+  skip-cert-verify: false
+  client-fingerprint: safari
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc3c4055d385b892ecf48c9b6fc3d14a0d9992
+- name: 🇩🇪 德国 (Germany) 48 - mao
+  server: 78.47.146.151
+  port: 443
+  udp: true
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇩🇪 德国 (Germany) 49 - mao
+  server: 2.27.59.206
+  port: 443
+  udp: true
+  type: hysteria2
+  password: cd74c0a406664a5bc0bac098220a2468
+  sni: de1.sferavpn.pro
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+- name: 🇩🇪 德国 (Germany) 50 - mao
+  server: 57.129.41.216
+  port: 80
+  udp: true
+  type: vless
+  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: OV-Germany1.09vpn.com
+- name: 🇩🇪 德国 (Germany) 51 - mao
+  server: 91.98.44.116
+  port: 80
+  udp: true
+  type: vless
+  uuid: 39cd736f-d129-4e75-ac39-77f6cf233450
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: KDmlFjsZuxHYEHYtFZh-3sLmrkt_KmcxA-sG8twBqxM
+    short-id: d2549f367a3ed3cc
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 52 - mao
+  server: 109.107.155.76
+  port: 2053
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tv/member/auth?ed=2560fp=chrome
+    headers:
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -631,6 +754,15 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 41 - mao
   - 🇩🇪 德国 (Germany) 42 - mao
   - 🇩🇪 德国 (Germany) 43 - mao
+  - 🇩🇪 德国 (Germany) 44 - mao
+  - 🇩🇪 德国 (Germany) 45 - mao
+  - 🇩🇪 德国 (Germany) 46 - mao
+  - 🇩🇪 德国 (Germany) 47 - mao
+  - 🇩🇪 德国 (Germany) 48 - mao
+  - 🇩🇪 德国 (Germany) 49 - mao
+  - 🇩🇪 德国 (Germany) 50 - mao
+  - 🇩🇪 德国 (Germany) 51 - mao
+  - 🇩🇪 德国 (Germany) 52 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -679,5 +811,14 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 41 - mao
   - 🇩🇪 德国 (Germany) 42 - mao
   - 🇩🇪 德国 (Germany) 43 - mao
+  - 🇩🇪 德国 (Germany) 44 - mao
+  - 🇩🇪 德国 (Germany) 45 - mao
+  - 🇩🇪 德国 (Germany) 46 - mao
+  - 🇩🇪 德国 (Germany) 47 - mao
+  - 🇩🇪 德国 (Germany) 48 - mao
+  - 🇩🇪 德国 (Germany) 49 - mao
+  - 🇩🇪 德国 (Germany) 50 - mao
+  - 🇩🇪 德国 (Germany) 51 - mao
+  - 🇩🇪 德国 (Germany) 52 - mao
 rules:
 - MATCH,PROXIES
