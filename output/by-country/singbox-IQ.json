@@ -5,20 +5,27 @@
   "outbounds": [
     {
       "type": "trojan",
-      "tag": "🌐 其他地区 (Other) 01 - mao",
-      "server": "104.17.147.22",
+      "tag": "🇮🇶 IQ 01 - mao",
+      "server": "172.67.158.158",
       "server_port": 443,
-      "password": "humanity",
+      "password": "Siw3_iSte@ulOTO,-",
       "tls": {
         "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "insecure": false
+        "server_name": "4zgCcbCb10PqYIBNwmM4NVzNj4.RoyaehmaN5.WORkErs.DeV",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/tr/fZ9yFHHYZsOSWv2vnEhP?ed=2560",
         "headers": {
-          "Host": "www.calmlunch.com"
+          "Host": "4zgccbcb10pqyibnwmm4nvznj4.royaehman5.workers.dev"
         }
       }
     },
@@ -27,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - mao"
+        "🇮🇶 IQ 01 - mao"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - mao"
+        "🇮🇶 IQ 01 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
