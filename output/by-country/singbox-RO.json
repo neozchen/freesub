@@ -16,26 +16,14 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - mao",
-      "server": "38.180.35.145",
-      "server_port": 443,
-      "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
-      "tls": {
-        "enabled": true,
-        "server_name": "bu2.freeguard.org",
-        "insecure": false
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - mao",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - mao",
       "server": "185.156.44.99",
       "server_port": 443,
       "password": "gf1:gfhysteria2024",
       "tls": {
         "enabled": true,
-        "server_name": "whatsapp.com",
+        "server_name": "www.bing.com",
         "insecure": true
       }
     },
@@ -45,8 +33,7 @@
       "outbounds": [
         "auto",
         "🇷🇴 罗马尼亚 (Romania) 01 - mao",
-        "🇷🇴 罗马尼亚 (Romania) 02 - mao",
-        "🇷🇴 罗马尼亚 (Romania) 03 - mao"
+        "🇷🇴 罗马尼亚 (Romania) 02 - mao"
       ]
     },
     {
@@ -54,8 +41,7 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇴 罗马尼亚 (Romania) 01 - mao",
-        "🇷🇴 罗马尼亚 (Romania) 02 - mao",
-        "🇷🇴 罗马尼亚 (Romania) 03 - mao"
+        "🇷🇴 罗马尼亚 (Romania) 02 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
