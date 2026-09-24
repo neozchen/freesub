@@ -13,31 +13,36 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇩🇪 德国 (Germany) 02 - mao
+  server: 213.202.208.199
+  port: 7001
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 🇩🇪 德国 (Germany) 03 - mao
   server: 185.226.172.8
   port: 8008
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: XKFKl2rULjIp74
-- name: 🇩🇪 德国 (Germany) 03 - mao
-  server: 51.195.126.38
-  port: 8388
+- name: 🇩🇪 德国 (Germany) 04 - mao
+  server: 163.8.195.241
+  port: 2087
+  udp: true
+  type: vless
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  network: ws
+  ws-opts:
+    path: /29c8fed7ca22
+- name: 🇩🇪 德国 (Germany) 05 - mao
+  server: 94.130.68.139
+  port: 2052
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 2YdE4lFOid5a
-- name: 🇩🇪 德国 (Germany) 04 - mao
-  server: 144.31.159.86
-  port: 443
-  udp: true
-  type: vless
-  uuid: b5d6221d-e3ad-4453-b5c6-8bf7ccaa7aa5
-  flow: xtls-rprx-vision
-  tls: true
-  servername: de3.duck-proxy.com
-  skip-cert-verify: false
-  client-fingerprint: safari
-- name: 🇩🇪 德国 (Germany) 05 - mao
+  password: 7mVYfd9UxI5L57zutpJLxuotDKBvhrk1M8EnuT6qlN0=
+- name: 🇩🇪 德国 (Germany) 06 - mao
   server: 144.31.168.95
   port: 443
   udp: true
@@ -50,7 +55,14 @@ proxies:
     short-id: 00bca5982f82d083
   servername: eu-central.cendora.ru
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 06 - mao
+- name: 🇩🇪 德国 (Germany) 07 - mao
+  server: 51.195.126.38
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2YdE4lFOid5a
+- name: 🇩🇪 德国 (Germany) 08 - mao
   server: 212.80.7.129
   port: 6215
   udp: true
@@ -62,8 +74,8 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: api.v1.ApiService
-- name: 🇩🇪 德国 (Germany) 07 - mao
-  server: 57.129.96.67
+- name: 🇩🇪 德国 (Germany) 09 - mao
+  server: nasnet-571299667-direct.mbghalibaf.com
   port: 443
   udp: true
   type: vless
@@ -71,21 +83,8 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   servername: nasnet-571299667-direct.mbghalibaf.com
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 08 - mao
-  server: 31.76.100.41
-  port: 443
-  udp: true
-  type: vless
-  uuid: d72f05b0-b182-4783-a6f2-21cecc7d841a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
-    short-id: a1b2c3d4e5f67890
-  servername: dzen.ru
-  client-fingerprint: ''
-- name: 🇩🇪 德国 (Germany) 09 - mao
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 10 - mao
   server: 159.69.103.251
   port: 80
   udp: true
@@ -98,64 +97,31 @@ proxies:
     short-id: 253126232f9bb9be
   servername: www.yahoo.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 10 - mao
-  server: 176.108.246.110
-  port: 9830
+- name: 🇩🇪 德国 (Germany) 11 - mao
+  server: 188.114.97.3
+  port: 2052
   udp: true
   type: vless
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  uuid: 51ff8dc9-6bc3-4d09-bf45-5def89e910eb
+  network: httpupgrade
+  httpupgrade-opts:
+    path: /wss
+    headers:
+      Host: nexoservice.zandix.ir
+- name: 🇩🇪 德国 (Germany) 12 - mao
+  server: 64.188.79.106
+  port: 443
+  udp: true
+  type: vless
+  uuid: 94006a20-6cd6-4751-a14d-c5a0bacb68bb
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  servername: dl.google.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇩🇪 德国 (Germany) 11 - mao
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: OV-Germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 12 - mao
-  server: 82.24.203.20
-  port: 2087
-  udp: true
-  type: vless
-  uuid: 5fcdc9b7-e70f-4a5c-85c3-e018ad818326
-  network: ws
-  ws-opts:
-    path: /fd5ba98a3970
+    public-key: dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg
+    short-id: 992e5a9a
+  servername: yandex.ru
+  client-fingerprint: ''
 - name: 🇩🇪 德国 (Germany) 13 - mao
-  server: rubifen.adaspoloandco.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  tls: true
-  servername: rubifen.adaspoloandco.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /GOrbEh
-- name: 🇩🇪 德国 (Germany) 14 - mao
-  server: 2.27.59.206
-  port: 443
-  udp: true
-  type: hysteria2
-  password: cd74c0a406664a5bc0bac098220a2468
-  sni: de1.sferavpn.pro
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-- name: 🇩🇪 德国 (Germany) 15 - mao
   server: 216.106.187.60
   port: 443
   udp: true
@@ -171,6 +137,81 @@ proxies:
     path: /linkvws
     headers:
       Host: kentspark.org
+- name: 🇩🇪 德国 (Germany) 14 - mao
+  server: 2.58.81.221
+  port: 80
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
+- name: 🇩🇪 德国 (Germany) 15 - mao
+  server: 89.169.53.176
+  port: 4443
+  udp: true
+  type: vless
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: YIyohkkCU5kw6J5iZYZkhILyDwlfftFPDTkbITlrAUw
+    short-id: df3aff719526dc5a
+  servername: de.wvpn.one
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 16 - mao
+  server: 82.39.171.12
+  port: 443
+  udp: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  servername: yahoo.com
+  client-fingerprint: random
+- name: 🇩🇪 德国 (Germany) 17 - mao
+  server: 144.31.159.86
+  port: 443
+  udp: true
+  type: vless
+  uuid: b5d6221d-e3ad-4453-b5c6-8bf7ccaa7aa5
+  flow: xtls-rprx-vision
+  tls: true
+  servername: de3.duck-proxy.com
+  skip-cert-verify: false
+  client-fingerprint: safari
+- name: 🇩🇪 德国 (Germany) 18 - mao
+  server: 2.27.59.206
+  port: 443
+  udp: true
+  type: hysteria2
+  password: cd74c0a406664a5bc0bac098220a2468
+  sni: de1.sferavpn.pro
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+- name: 🇩🇪 德国 (Germany) 19 - mao
+  server: de1.apexvpn.space
+  port: 443
+  udp: true
+  type: hysteria2
+  password: af60078b-e956-4752-8728-ce7c9ef630a5
+  sni: de1.apexvpn.space
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 20 - mao
+  server: 185.229.9.74
+  port: 443
+  udp: true
+  type: vless
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 7o36V1H4H_34kTMpwCfJmDB1bbd21Rgbk2dM_dAonyM
+    short-id: 0bb3fbdc6cb178d4
+  servername: www.vk.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -191,6 +232,11 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 13 - mao
   - 🇩🇪 德国 (Germany) 14 - mao
   - 🇩🇪 德国 (Germany) 15 - mao
+  - 🇩🇪 德国 (Germany) 16 - mao
+  - 🇩🇪 德国 (Germany) 17 - mao
+  - 🇩🇪 德国 (Germany) 18 - mao
+  - 🇩🇪 德国 (Germany) 19 - mao
+  - 🇩🇪 德国 (Germany) 20 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -211,5 +257,10 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 13 - mao
   - 🇩🇪 德国 (Germany) 14 - mao
   - 🇩🇪 德国 (Germany) 15 - mao
+  - 🇩🇪 德国 (Germany) 16 - mao
+  - 🇩🇪 德国 (Germany) 17 - mao
+  - 🇩🇪 德国 (Germany) 18 - mao
+  - 🇩🇪 德国 (Germany) 19 - mao
+  - 🇩🇪 德国 (Germany) 20 - mao
 rules:
 - MATCH,PROXIES
