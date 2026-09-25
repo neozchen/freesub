@@ -25,41 +25,20 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - mao",
-      "server": "138.124.121.233",
-      "server_port": 443,
-      "uuid": "8e826a69-63f6-0001-a67d-4a1958e8b2d2",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc",
-          "short_id": "a696de84963656de"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - mao",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - mao",
       "server": "91.240.86.70",
       "server_port": 22443,
       "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
       "tls": {
         "enabled": true,
-        "server_name": "91.240.86.70",
-        "insecure": true
+        "server_name": "itsallproxy.quattro-tech.ru",
+        "insecure": false
       }
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - mao",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - mao",
       "server": "46.8.200.91",
       "server_port": 443,
       "uuid": "b8201bab-fa6c-4f6e-b289-b5da660c6f69",
@@ -83,8 +62,7 @@
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 - mao",
         "🇷🇺 俄罗斯 (Russia) 02 - mao",
-        "🇷🇺 俄罗斯 (Russia) 03 - mao",
-        "🇷🇺 俄罗斯 (Russia) 04 - mao"
+        "🇷🇺 俄罗斯 (Russia) 03 - mao"
       ]
     },
     {
@@ -93,8 +71,7 @@
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - mao",
         "🇷🇺 俄罗斯 (Russia) 02 - mao",
-        "🇷🇺 俄罗斯 (Russia) 03 - mao",
-        "🇷🇺 俄罗斯 (Russia) 04 - mao"
+        "🇷🇺 俄罗斯 (Russia) 03 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
