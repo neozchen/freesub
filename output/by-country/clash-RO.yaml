@@ -11,24 +11,16 @@ proxies:
   type: hysteria2
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   sni: grape-test-italy.dynuddns.net
-  skip-cert-verify: true
+  skip-cert-verify: false
 - name: 🇷🇴 罗马尼亚 (Romania) 02 - mao
-  server: 162.249.127.130
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  sni: hop-germany-september.dynuddns.com
-  skip-cert-verify: true
-- name: 🇷🇴 罗马尼亚 (Romania) 03 - mao
-  server: 85.204.107.186
+  server: 85.204.107.170
   port: 8443
   udp: true
   type: hysteria2
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   sni: hopp-romania-new.roxa.org
   skip-cert-verify: true
-- name: 🇷🇴 罗马尼亚 (Romania) 04 - mao
+- name: 🇷🇴 罗马尼亚 (Romania) 03 - mao
   server: 46.28.67.55
   port: 443
   udp: true
@@ -40,16 +32,16 @@ proxies:
     public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
     short-id: d06d78e974491b6e
   servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇷🇴 罗马尼亚 (Romania) 05 - mao
+  client-fingerprint: ''
+- name: 🇷🇴 罗马尼亚 (Romania) 04 - mao
   server: 185.156.44.99
   port: 443
   udp: true
   type: hysteria2
   password: gf1:gfhysteria2024
-  sni: www.amazon.com
+  sni: css.rbxcdn.com
   skip-cert-verify: true
-- name: 🇷🇴 罗马尼亚 (Romania) 06 - mao
+- name: 🇷🇴 罗马尼亚 (Romania) 05 - mao
   server: 162.249.125.133
   port: 443
   udp: true
@@ -69,7 +61,6 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 03 - mao
   - 🇷🇴 罗马尼亚 (Romania) 04 - mao
   - 🇷🇴 罗马尼亚 (Romania) 05 - mao
-  - 🇷🇴 罗马尼亚 (Romania) 06 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -80,6 +71,5 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 03 - mao
   - 🇷🇴 罗马尼亚 (Romania) 04 - mao
   - 🇷🇴 罗马尼亚 (Romania) 05 - mao
-  - 🇷🇴 罗马尼亚 (Romania) 06 - mao
 rules:
 - MATCH,PROXIES

@@ -5,28 +5,27 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - mao
-  server: 119.246.1.143
-  port: 443
+  server: sth.free-outline.giize.com
+  port: 1081
   udp: true
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%252fripaojiedian
-  skip-cert-verify: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: v7qnj9jvxtnpmj4l
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - mao
-  server: 47.240.80.220
-  port: 2052
-  udp: true
-  type: trojan
-  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
-  sni: vpn.12169.top
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - mao
   server: 202.146.222.174
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2foneclickvpnkeys
+  sni: 202.146.222.174
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - mao
+  server: 119.246.1.143
+  port: 443
+  udp: true
+  type: trojan
+  password: BxceQaOe
+  sni: t.me
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - mao
   server: 202.146.222.89
@@ -34,9 +33,17 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%253a%252f%252ft.me%252fclashv8%25f0%259f%2587%25a8%25f0%259f%2587%25b3
+  sni: https%3a%2f%2ft.me%2fclashv8
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - mao
+  server: 202.146.222.29
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/wangcai2üáüá
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - mao
   server: hk2.xiaoliyu.cyou
   port: 4433
   udp: true
@@ -44,7 +51,7 @@ proxies:
   password: 19f72087-4591-4d72-930b-2697078ec2be
   sni: hk2.xiaoliyu.cyou
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - mao
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - mao
   server: mz.hkychina.com
   port: 8443
   udp: true
@@ -63,6 +70,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 04 - mao
   - 🇭🇰 中国香港 (Hong Kong) 05 - mao
   - 🇭🇰 中国香港 (Hong Kong) 06 - mao
+  - 🇭🇰 中国香港 (Hong Kong) 07 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -74,5 +82,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 04 - mao
   - 🇭🇰 中国香港 (Hong Kong) 05 - mao
   - 🇭🇰 中国香港 (Hong Kong) 06 - mao
+  - 🇭🇰 中国香港 (Hong Kong) 07 - mao
 rules:
 - MATCH,PROXIES
