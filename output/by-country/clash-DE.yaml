@@ -5,13 +5,59 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - mao
-  server: 130.61.232.1
+  server: 199.232.78.101
+  port: 443
+  udp: true
+  type: trojan
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇩🇪 德国 (Germany) 02 - mao
+  server: 130.61.178.43
   port: 59924
   udp: true
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
-  password: UoUzY5YlcUBJpgXi/Z3PEaf58E+++FJ+3AKry5V7J9Y=
-- name: 🇩🇪 德国 (Germany) 02 - mao
+  password: SgyJkGCcYNgfF87vVJTcRI9Vd9Xa/GISuFw17bdtB6c=
+- name: 🇩🇪 德国 (Germany) 03 - mao
+  server: 130.61.237.178
+  port: 59924
+  udp: true
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: +Md6uvx0q4r8xi+D4f0ohkfMPiaCVx5nHy7ScOhNlLM=
+- name: 🇩🇪 德国 (Germany) 04 - mao
+  server: 185.226.172.8
+  port: 8008
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 🇩🇪 德国 (Germany) 05 - mao
+  server: 209.46.102.22
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 1hhrqrokj3ag
+- name: 🇩🇪 德国 (Germany) 06 - mao
+  server: 8.209.74.72
+  port: 20001
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: PWpjPo3tqhPN4yRZ
+- name: 🇩🇪 德国 (Germany) 07 - mao
+  server: 130.61.227.119
+  port: 59924
+  udp: true
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: QQyhsWE4kraFnuIyxSx/tfdFnd1+IUu3YrQM92BGVrQ=
+- name: 🇩🇪 德国 (Germany) 08 - mao
   server: 45.77.143.204
   port: 80
   udp: true
@@ -20,7 +66,27 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇩🇪 德国 (Germany) 03 - mao
+- name: 🇩🇪 德国 (Germany) 09 - mao
+  server: 8.211.15.144
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: fc04RSUu3TfONQnlbKTwvA
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 10 - mao
+  server: 162.55.242.208
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
+  tls: true
+  reality-opts:
+    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
+    short-id: 4d14da19b19cfc8c
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇩🇪 德国 (Germany) 11 - mao
   server: 192.248.179.81
   port: 80
   udp: true
@@ -29,14 +95,25 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇩🇪 德国 (Germany) 04 - mao
-  server: 8.209.74.72
-  port: 20001
+- name: 🇩🇪 德国 (Germany) 12 - mao
+  server: 57.129.96.67
+  port: 443
+  udp: true
+  type: vless
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  flow: xtls-rprx-vision
+  tls: true
+  servername: nasnet-571299667-direct.mbghalibaf.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 13 - mao
+  server: 2.58.81.221
+  port: 443
   udp: true
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: PWpjPo3tqhPN4yRZ
-- name: 🇩🇪 德国 (Germany) 05 - mao
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
+- name: 🇩🇪 德国 (Germany) 14 - mao
   server: 31.77.161.15
   port: 443
   udp: true
@@ -49,7 +126,20 @@ proxies:
     short-id: db04ce8bdb8900f1
   servername: nvidia.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 06 - mao
+- name: 🇩🇪 德国 (Germany) 15 - mao
+  server: 89.169.53.176
+  port: 4443
+  udp: true
+  type: vless
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: YIyohkkCU5kw6J5iZYZkhILyDwlfftFPDTkbITlrAUw
+    short-id: df3aff719526dc5a
+  servername: de.wvpn.one
+  client-fingerprint: random
+- name: 🇩🇪 德国 (Germany) 16 - mao
   server: 159.69.103.251
   port: 80
   udp: true
@@ -61,73 +151,8 @@ proxies:
     public-key: 0Ag8wyoyN-M84yS4cbZ04wtqawZCHAzfKFT1A1xBFms
     short-id: 253126232f9bb9be
   servername: www.yahoo.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 07 - mao
-  server: 213.202.208.199
-  port: 7001
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 🇩🇪 德国 (Germany) 08 - mao
-  server: 95.85.252.78
-  port: 9443
-  udp: true
-  type: hysteria2
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  sni: onecloudstream.com
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 09 - mao
-  server: 162.55.242.208
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
-  tls: true
-  reality-opts:
-    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
-    short-id: 4d14da19b19cfc8c
-  servername: www.cloudflare.com
   client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 10 - mao
-  server: 209.46.102.22
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 1hhrqrokj3ag
-- name: 🇩🇪 德国 (Germany) 11 - mao
-  server: 2.58.81.221
-  port: 80
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: kKEd0rBrd56Furjz
-- name: 🇩🇪 德国 (Germany) 12 - mao
-  server: 178.105.120.168
-  port: 80
-  udp: true
-  type: vless
-  uuid: 1d9cbbf4-bb99-4b09-8750-1cc22d510018
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇩🇪 德国 (Germany) 13 - mao
-  server: 95.85.252.59
-  port: 9443
-  udp: true
-  type: hysteria2
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  sni: onecloudstream.com
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 14 - mao
-  server: 51.195.126.38
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2YdE4lFOid5a
-- name: 🇩🇪 德国 (Germany) 15 - mao
+- name: 🇩🇪 德国 (Germany) 17 - mao
   server: api-4pda-k9x4m.xubi.org
   port: 443
   udp: true
@@ -140,33 +165,51 @@ proxies:
     short-id: d4f6a8c1b2e3f9aa
   servername: 4pda.to
   client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 16 - mao
-  server: 31.76.111.79
+- name: 🇩🇪 德国 (Germany) 18 - mao
+  server: 82.39.171.12
   port: 443
   udp: true
   type: vless
-  uuid: ac9a573b-67ff-4953-9e13-4cf43576f8f0
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4
-    short-id: 0123456789abcdef
-  servername: hh.ru
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 17 - mao
-  server: 89.169.53.176
-  port: 4443
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  servername: yahoo.com
+  client-fingerprint: ios
+- name: 🇩🇪 德国 (Germany) 19 - mao
+  server: 193.108.117.54
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: aidrivercat.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: aidrivercat.org
+- name: 🇩🇪 德国 (Germany) 20 - mao
+  server: 77.110.104.238
+  port: 443
   udp: true
   type: vless
-  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
-  flow: xtls-rprx-vision
+  uuid: 937fbdad-d97b-4540-9136-de1886df866f
   tls: true
   reality-opts:
-    public-key: YIyohkkCU5kw6J5iZYZkhILyDwlfftFPDTkbITlrAUw
-    short-id: df3aff719526dc5a
-  servername: de.wvpn.one
+    public-key: lvBVTmcLFcPyhVE2MGeTd0ls2FNOvBD7UhJNEmvprUQ
+    short-id: f182f2fcf956838e
+  servername: www.wikipedia.org
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 18 - mao
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ru217125de65grpc
+- name: 🇩🇪 德国 (Germany) 21 - mao
   server: 82.39.171.142
   port: 443
   udp: true
@@ -179,14 +222,15 @@ proxies:
     short-id: c39cc7310a
   servername: yahoo.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 19 - mao
-  server: 185.226.172.8
-  port: 8008
+- name: 🇩🇪 德国 (Germany) 22 - mao
+  server: de1.xiaoliyu.cyou
+  port: 4433
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- name: 🇩🇪 德国 (Germany) 20 - mao
+  type: hysteria2
+  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 23 - mao
   server: 64.118.158.56
   port: 443
   udp: true
@@ -199,22 +243,23 @@ proxies:
     short-id: 5c6481cdd4
   servername: buckeye-retail-website.amazon.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 21 - mao
-  server: de1.xiaoliyu.cyou
-  port: 4433
-  udp: true
-  type: hysteria2
-  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
-  sni: de1.xiaoliyu.cyou
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 22 - mao
+- name: 🇩🇪 德国 (Germany) 24 - mao
   server: 2.58.81.221
-  port: 443
+  port: 80
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: kKEd0rBrd56Furjz
-- name: 🇩🇪 德国 (Germany) 23 - mao
+- name: 🇩🇪 德国 (Germany) 25 - mao
+  server: 178.105.120.168
+  port: 80
+  udp: true
+  type: vless
+  uuid: 1d9cbbf4-bb99-4b09-8750-1cc22d510018
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇩🇪 德国 (Germany) 26 - mao
   server: rubifen.adaspoloandco.com
   port: 443
   udp: true
@@ -226,25 +271,13 @@ proxies:
   network: ws
   ws-opts:
     path: /GOrbEh
-- name: 🇩🇪 德国 (Germany) 24 - mao
-  server: 130.61.83.88
-  port: 59924
+- name: 🇩🇪 德国 (Germany) 27 - mao
+  server: 80.97.27.106
+  port: 116
   udp: true
   type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: bvHY/DNOgIpmarNB4MP65BYeGyXcXlZ1yF1k+2PnCGQ=
-- name: 🇩🇪 德国 (Germany) 25 - mao
-  server: dl2.musicworldtg.com
-  port: 2018
-  udp: true
-  type: vless
-  uuid: 834e5553-d80e-4078-8d7e-482fafe9bbaf
-  tls: true
-  reality-opts:
-    public-key: Sn8z3wbt2Zpoo3mO3HLW6TZTjN8231Ylka7apFNb2X0
-    short-id: cd5f260bcdd9c92d
-  servername: gemini.com
-  client-fingerprint: chrome
+  cipher: chacha20-ietf-poly1305
+  password: 9binmVT58Wnr6vNzxu_JmpzEW6i-FgAj
 proxy-groups:
 - name: PROXIES
   type: select
@@ -275,6 +308,8 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 23 - mao
   - 🇩🇪 德国 (Germany) 24 - mao
   - 🇩🇪 德国 (Germany) 25 - mao
+  - 🇩🇪 德国 (Germany) 26 - mao
+  - 🇩🇪 德国 (Germany) 27 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -305,5 +340,7 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 23 - mao
   - 🇩🇪 德国 (Germany) 24 - mao
   - 🇩🇪 德国 (Germany) 25 - mao
+  - 🇩🇪 德国 (Germany) 26 - mao
+  - 🇩🇪 德国 (Germany) 27 - mao
 rules:
 - MATCH,PROXIES
