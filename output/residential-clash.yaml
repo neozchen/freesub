@@ -4,44 +4,15 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (家宽) - mao
-  server: 104.21.78.225
+- name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - mao
+  server: f902df58-tmeqo0-u4zl7f-1jk6u.hk3.hyhuawei.com
   port: 443
   udp: true
-  type: vless
-  uuid: 4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633
-  tls: true
-  servername: curly-night-6928.ggdhchjk.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: curly-night-6928.ggdhchjk.workers.dev
+  type: hysteria2
+  password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+  sni: f902df58-tmeqo0-u4zl7f-1jk6u.hk3.hyhuawei.com
+  skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - mao
-  server: 36.224.178.15
-  port: 50099
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-- name: 🇯🇵 日本 (Japan) 03 (家宽) - mao
-  server: 147.45.42.73
-  port: 20443
-  udp: true
-  type: vless
-  uuid: f293db4d-7ab1-4faf-bb15-89540d8709cb
-  tls: true
-  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - mao
   server: hinet1.2yly.com
   port: 24215
   udp: true
@@ -52,23 +23,27 @@ proxies:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
   client-fingerprint: chrome
+- name: 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - mao
+  server: test.keoplentuio.xyz
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (家宽) - mao
+  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - mao
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - mao
-  - 🇯🇵 日本 (Japan) 03 (家宽) - mao
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - mao
+  - 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (家宽) - mao
+  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - mao
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - mao
-  - 🇯🇵 日本 (Japan) 03 (家宽) - mao
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - mao
+  - 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - mao
 rules:
 - MATCH,PROXIES

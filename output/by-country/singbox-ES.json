@@ -4,8 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vmess",
       "tag": "🇪🇸 西班牙 (Spain) 01 - mao",
+      "server": "66.163.118.73",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇪🇸 西班牙 (Spain) 02 - mao",
       "server": "185.174.137.172",
       "server_port": 8446,
       "password": "e9dc02d400b67c727aca1620",
@@ -16,32 +24,8 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 02 - mao",
-      "server": "140.174.184.5",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "qItG8SueYQcP"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 03 - mao",
-      "server": "108.181.121.226",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "WSyL4XTwNsdv"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇪🇸 西班牙 (Spain) 04 - mao",
-      "server": "66.163.118.73",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto"
-    },
-    {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 05 - mao",
+      "tag": "🇪🇸 西班牙 (Spain) 03 - mao",
       "server": "212.227.235.66",
       "server_port": 2053,
       "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
@@ -50,7 +34,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -60,6 +44,14 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇪🇸 西班牙 (Spain) 04 - mao",
+      "server": "140.174.184.5",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "qItG8SueYQcP"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -67,8 +59,7 @@
         "🇪🇸 西班牙 (Spain) 01 - mao",
         "🇪🇸 西班牙 (Spain) 02 - mao",
         "🇪🇸 西班牙 (Spain) 03 - mao",
-        "🇪🇸 西班牙 (Spain) 04 - mao",
-        "🇪🇸 西班牙 (Spain) 05 - mao"
+        "🇪🇸 西班牙 (Spain) 04 - mao"
       ]
     },
     {
@@ -78,8 +69,7 @@
         "🇪🇸 西班牙 (Spain) 01 - mao",
         "🇪🇸 西班牙 (Spain) 02 - mao",
         "🇪🇸 西班牙 (Spain) 03 - mao",
-        "🇪🇸 西班牙 (Spain) 04 - mao",
-        "🇪🇸 西班牙 (Spain) 05 - mao"
+        "🇪🇸 西班牙 (Spain) 04 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
