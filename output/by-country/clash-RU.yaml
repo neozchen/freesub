@@ -5,81 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - mao
-  server: 195.58.48.137
-  port: 40401
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 8ad9d72a5571df86
-- name: 🇷🇺 俄罗斯 (Russia) 02 - mao
-  server: 195.133.23.200
-  port: 40440
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 81a20429165df87e
-- name: 🇷🇺 俄罗斯 (Russia) 03 - mao
-  server: 91.196.32.163
-  port: 443
-  udp: true
-  type: hysteria2
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  sni: germany3.h2corp.local
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 04 - mao
   server: 130.49.189.158
   port: 43558
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: ziOeKejhhw+fmWet+xvuJsVJH7U9DvSWq1hlqtaKv+I=
-- name: 🇷🇺 俄罗斯 (Russia) 05 - mao
-  server: els.mangshe.xyz
-  port: 2060
-  udp: true
-  type: hysteria2
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  sni: els.mangshe.xyz
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 06 - mao
-  server: 185.147.27.164
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 3a90bf69-1ffe-4ebb-b9a7-ad9ba8e9f66f
-  flow: xtls-rprx-vision
-  tls: true
-  servername: speedtest.net
-  skip-cert-verify: true
-  client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 07 - mao
-  server: 193.233.247.60
-  port: 443
-  udp: true
-  type: vless
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-  tls: true
-  reality-opts:
-    public-key: c5VEuaQj6ClJwRZvXbXwb2vMBxdye2O-0jHi2Q3NEGU
-    short-id: 7e93843097e0c549
-  servername: www.chitai-gorod.ru
-  client-fingerprint: qq
-  network: grpc
-  grpc-opts:
-    grpc-service-name: astracat
-- name: 🇷🇺 俄罗斯 (Russia) 08 - mao
-  server: 185.147.27.183
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 379998c5-2a71-4202-9c74-522e0c3c5404
-  flow: xtls-rprx-vision
-  tls: true
-  servername: user-6a917f32.noooo.win
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 09 - mao
-  server: 139.28.168.201
+- name: 🇷🇺 俄罗斯 (Russia) 02 - mao
+  server: china.letsconnectpoint.com
   port: 443
   udp: true
   type: vless
@@ -90,31 +23,30 @@ proxies:
     public-key: 4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI
     short-id: 3b74d85e
   servername: china.letsconnectpoint.com
-  client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 10 - mao
-  server: tr3.wba-pn.ru
+  client-fingerprint: random
+- name: 🇷🇺 俄罗斯 (Russia) 03 - mao
+  server: ru1.xiaoliyu.cyou
+  port: 18333
+  udp: true
+  type: hysteria2
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  sni: ru1.xiaoliyu.cyou
+  skip-cert-verify: true
+- name: 🇷🇺 俄罗斯 (Russia) 04 - mao
+  server: 217.19.122.200
   port: 443
   udp: true
   type: vless
-  uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
   tls: true
-  servername: tr3.wba-pn.ru
+  servername: fbsv6.guardora.pro
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
-- name: 🇷🇺 俄罗斯 (Russia) 11 - mao
-  server: 45.12.75.242
-  port: 26424
-  udp: true
-  type: vless
-  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
-  tls: true
-  reality-opts:
-    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
-    short-id: 23103e1e
-  servername: ya.ru
-  client-fingerprint: chrome
+    path: /ws
+    headers:
+      Host: fbsv6.guardora.pro
 proxy-groups:
 - name: PROXIES
   type: select
@@ -124,13 +56,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - mao
   - 🇷🇺 俄罗斯 (Russia) 03 - mao
   - 🇷🇺 俄罗斯 (Russia) 04 - mao
-  - 🇷🇺 俄罗斯 (Russia) 05 - mao
-  - 🇷🇺 俄罗斯 (Russia) 06 - mao
-  - 🇷🇺 俄罗斯 (Russia) 07 - mao
-  - 🇷🇺 俄罗斯 (Russia) 08 - mao
-  - 🇷🇺 俄罗斯 (Russia) 09 - mao
-  - 🇷🇺 俄罗斯 (Russia) 10 - mao
-  - 🇷🇺 俄罗斯 (Russia) 11 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -140,12 +65,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - mao
   - 🇷🇺 俄罗斯 (Russia) 03 - mao
   - 🇷🇺 俄罗斯 (Russia) 04 - mao
-  - 🇷🇺 俄罗斯 (Russia) 05 - mao
-  - 🇷🇺 俄罗斯 (Russia) 06 - mao
-  - 🇷🇺 俄罗斯 (Russia) 07 - mao
-  - 🇷🇺 俄罗斯 (Russia) 08 - mao
-  - 🇷🇺 俄罗斯 (Russia) 09 - mao
-  - 🇷🇺 俄罗斯 (Russia) 10 - mao
-  - 🇷🇺 俄罗斯 (Russia) 11 - mao
 rules:
 - MATCH,PROXIES
