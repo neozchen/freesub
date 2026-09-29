@@ -5,17 +5,28 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - mao
-  server: 104.18.34.14
-  port: 2095
+  server: 172.64.158.146
+  port: 2052
   udp: true
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 02 - mao
+  server: 104.18.34.14
+  port: 2082
+  udp: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 03 - mao
   server: 91.240.86.70
   port: 22443
   udp: true
@@ -23,8 +34,8 @@ proxies:
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
   sni: 91.240.86.70
   skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 03 - mao
-  server: china.letsconnectpoint.com
+- name: 🇷🇺 俄罗斯 (Russia) 04 - mao
+  server: 139.28.168.201
   port: 443
   udp: true
   type: vless
@@ -35,19 +46,34 @@ proxies:
     public-key: 4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI
     short-id: 3b74d85e
   servername: china.letsconnectpoint.com
-  client-fingerprint: ios
-- name: 🇷🇺 俄罗斯 (Russia) 04 - mao
-  server: 95.215.108.36
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 05 - mao
+  server: 217.19.122.200
   port: 443
   udp: true
   type: vless
-  uuid: 84a3061b-3573-4a3c-a631-f26c31209268
-  flow: xtls-rprx-vision
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  tls: true
+  servername: fbsv6.guardora.pro
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: fbsv6.guardora.pro
+- name: 🇷🇺 俄罗斯 (Russia) 06 - mao
+  server: 45.12.75.242
+  port: 26424
+  udp: true
+  type: vless
+  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
   tls: true
   reality-opts:
-    public-key: bDAry75taTMaPJII9vRrJuXAjQglTJxCOVWraQ5BozY
-  servername: ru-02.vacvps.com
-  client-fingerprint: firefox
+    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
+    short-id: 23103e1e
+  servername: ya.ru
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -57,6 +83,8 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - mao
   - 🇷🇺 俄罗斯 (Russia) 03 - mao
   - 🇷🇺 俄罗斯 (Russia) 04 - mao
+  - 🇷🇺 俄罗斯 (Russia) 05 - mao
+  - 🇷🇺 俄罗斯 (Russia) 06 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -66,5 +94,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - mao
   - 🇷🇺 俄罗斯 (Russia) 03 - mao
   - 🇷🇺 俄罗斯 (Russia) 04 - mao
+  - 🇷🇺 俄罗斯 (Russia) 05 - mao
+  - 🇷🇺 俄罗斯 (Russia) 06 - mao
 rules:
 - MATCH,PROXIES
