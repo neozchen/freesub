@@ -15,95 +15,17 @@ proxies:
     path: /platform128
     headers:
       Host: platform128.halalkhor.info
-- name: 🇲🇾 马来西亚 (Malaysia) 02 - mao
-  server: platform103.golnamakcert.top
-  port: 80
-  udp: true
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  network: ws
-  ws-opts:
-    path: /platform103
-    headers:
-      Host: platform103.halalkhor.info
-- name: 🇲🇾 马来西亚 (Malaysia) 03 - mao
-  server: platform101.golnamakcert.top
-  port: 80
-  udp: true
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  network: ws
-  ws-opts:
-    path: /platform101
-    headers:
-      Host: platform101.halalkhor.info
-- name: 🇲🇾 马来西亚 (Malaysia) 04 - mao
-  server: platform108.golnamakcert.top
-  port: 80
-  udp: true
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  network: ws
-  ws-opts:
-    path: /platform108
-    headers:
-      Host: platform108.halalkhor.info
-- name: 🇲🇾 马来西亚 (Malaysia) 05 - mao
-  server: platform106.golnamakcert.top
-  port: 80
-  udp: true
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  network: ws
-  ws-opts:
-    path: /platform106
-    headers:
-      Host: platform106.halalkhor.info
-- name: 🇲🇾 马来西亚 (Malaysia) 06 - mao
-  server: platform117.golnamakcert.top
-  port: 80
-  udp: true
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  network: ws
-  ws-opts:
-    path: /platform117
-    headers:
-      Host: platform117.halalkhor.info
-- name: 🇲🇾 马来西亚 (Malaysia) 07 - mao
-  server: platform109.golnamakcert.top
-  port: 80
-  udp: true
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  network: ws
-  ws-opts:
-    path: /platform109
-    headers:
-      Host: '[''platform109.halalkhor.info'']'
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇲🇾 马来西亚 (Malaysia) 01 - mao
-  - 🇲🇾 马来西亚 (Malaysia) 02 - mao
-  - 🇲🇾 马来西亚 (Malaysia) 03 - mao
-  - 🇲🇾 马来西亚 (Malaysia) 04 - mao
-  - 🇲🇾 马来西亚 (Malaysia) 05 - mao
-  - 🇲🇾 马来西亚 (Malaysia) 06 - mao
-  - 🇲🇾 马来西亚 (Malaysia) 07 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇲🇾 马来西亚 (Malaysia) 01 - mao
-  - 🇲🇾 马来西亚 (Malaysia) 02 - mao
-  - 🇲🇾 马来西亚 (Malaysia) 03 - mao
-  - 🇲🇾 马来西亚 (Malaysia) 04 - mao
-  - 🇲🇾 马来西亚 (Malaysia) 05 - mao
-  - 🇲🇾 马来西亚 (Malaysia) 06 - mao
-  - 🇲🇾 马来西亚 (Malaysia) 07 - mao
 rules:
 - MATCH,PROXIES

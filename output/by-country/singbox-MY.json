@@ -18,114 +18,18 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇲🇾 马来西亚 (Malaysia) 02 - mao",
-      "server": "platform103.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform103",
-        "headers": {
-          "Host": "platform103.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇲🇾 马来西亚 (Malaysia) 03 - mao",
-      "server": "platform101.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform101",
-        "headers": {
-          "Host": "platform101.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇲🇾 马来西亚 (Malaysia) 04 - mao",
-      "server": "platform108.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform108",
-        "headers": {
-          "Host": "platform108.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇲🇾 马来西亚 (Malaysia) 05 - mao",
-      "server": "platform106.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform106",
-        "headers": {
-          "Host": "platform106.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇲🇾 马来西亚 (Malaysia) 06 - mao",
-      "server": "platform117.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform117",
-        "headers": {
-          "Host": "platform117.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇲🇾 马来西亚 (Malaysia) 07 - mao",
-      "server": "platform109.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform109",
-        "headers": {
-          "Host": "['platform109.halalkhor.info']"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇾 马来西亚 (Malaysia) 01 - mao",
-        "🇲🇾 马来西亚 (Malaysia) 02 - mao",
-        "🇲🇾 马来西亚 (Malaysia) 03 - mao",
-        "🇲🇾 马来西亚 (Malaysia) 04 - mao",
-        "🇲🇾 马来西亚 (Malaysia) 05 - mao",
-        "🇲🇾 马来西亚 (Malaysia) 06 - mao",
-        "🇲🇾 马来西亚 (Malaysia) 07 - mao"
+        "🇲🇾 马来西亚 (Malaysia) 01 - mao"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇾 马来西亚 (Malaysia) 01 - mao",
-        "🇲🇾 马来西亚 (Malaysia) 02 - mao",
-        "🇲🇾 马来西亚 (Malaysia) 03 - mao",
-        "🇲🇾 马来西亚 (Malaysia) 04 - mao",
-        "🇲🇾 马来西亚 (Malaysia) 05 - mao",
-        "🇲🇾 马来西亚 (Malaysia) 06 - mao",
-        "🇲🇾 马来西亚 (Malaysia) 07 - mao"
+        "🇲🇾 马来西亚 (Malaysia) 01 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
