@@ -4,34 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 01 - mao",
-      "server": "172.67.156.87",
-      "server_port": 443,
-      "uuid": "4ccf70f9-7632-4b5a-9557-10d2dd347bb2",
-      "tls": {
-        "enabled": true,
-        "server_name": "To6R63-kKChiGHqm2.vxz0Dduq7to7Su0CDQf.worKERs.DEV",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/zhlUKkHT4SNWHmPFOf4cu6",
-        "headers": {
-          "Host": "to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev"
-        }
-      }
-    },
-    {
       "type": "vmess",
-      "tag": "🇪🇸 西班牙 (Spain) 02 - mao",
+      "tag": "🇪🇸 西班牙 (Spain) 01 - mao",
       "server": "66.163.118.73",
       "server_port": 22324,
       "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
@@ -39,52 +13,50 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 03 - mao",
-      "server": "108.181.121.226",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "WSyL4XTwNsdv"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 04 - mao",
+      "tag": "🇪🇸 西班牙 (Spain) 02 - mao",
       "server": "140.174.184.5",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
       "password": "qItG8SueYQcP"
     },
     {
-      "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 05 - mao",
-      "server": "188.114.97.6",
-      "server_port": 8880,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
-        }
+      "type": "hysteria2",
+      "tag": "🇪🇸 西班牙 (Spain) 03 - mao",
+      "server": "185.174.137.172",
+      "server_port": 8446,
+      "password": "e9dc02d400b67c727aca1620",
+      "tls": {
+        "enabled": true,
+        "server_name": "185.174.137.172",
+        "insecure": true
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇪🇸 西班牙 (Spain) 06 - mao",
-      "server": "66.163.118.73",
+      "type": "shadowsocks",
+      "tag": "🇪🇸 西班牙 (Spain) 04 - mao",
+      "server": "108.181.121.226",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "WSyL4XTwNsdv"
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇸 西班牙 (Spain) 05 - mao",
+      "server": "193.238.154.5",
       "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
+      "uuid": "e0b9fb0f-1bbd-478b-9580-c2294778338b",
       "tls": {
         "enabled": true,
-        "server_name": "mygptagent.org",
-        "insecure": false
+        "server_name": "assets-es.pleiades.codes",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "mygptagent.org"
-        }
+        "type": "grpc",
+        "service_name": "cdn.v1.AssetService"
       }
     },
     {
@@ -96,8 +68,7 @@
         "🇪🇸 西班牙 (Spain) 02 - mao",
         "🇪🇸 西班牙 (Spain) 03 - mao",
         "🇪🇸 西班牙 (Spain) 04 - mao",
-        "🇪🇸 西班牙 (Spain) 05 - mao",
-        "🇪🇸 西班牙 (Spain) 06 - mao"
+        "🇪🇸 西班牙 (Spain) 05 - mao"
       ]
     },
     {
@@ -108,8 +79,7 @@
         "🇪🇸 西班牙 (Spain) 02 - mao",
         "🇪🇸 西班牙 (Spain) 03 - mao",
         "🇪🇸 西班牙 (Spain) 04 - mao",
-        "🇪🇸 西班牙 (Spain) 05 - mao",
-        "🇪🇸 西班牙 (Spain) 06 - mao"
+        "🇪🇸 西班牙 (Spain) 05 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

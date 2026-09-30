@@ -5,8 +5,8 @@
   "outbounds": [
     {
       "type": "trojan",
-      "tag": "🇨🇿 捷克 (Czech) 01 - mao",
-      "server": "199.232.78.170",
+      "tag": "🇮🇷 IR 01 - mao",
+      "server": "199.232.78.101",
       "server_port": 443,
       "password": "mitivpn",
       "tls": {
@@ -23,34 +23,10 @@
       },
       "transport": {
         "type": "ws",
-        "path": "@mehrosabiran",
+        "path": "/---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN/NLSus---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN/---@GHOFLSHCAN---@GHOFLSHCAN",
         "headers": {
           "Host": "mitivpn---de--s---mitivpn-11.global.ssl.fastly.net"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 02 - mao",
-      "server": "195.133.66.229",
-      "server_port": 443,
-      "uuid": "4abdfe42-aec7-4b66-974d-3f891e2e8184",
-      "tls": {
-        "enabled": true,
-        "server_name": "nlll.gaz-service.shop",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Zl6Fe6WYQuaFe_QNUB4qU7nRkGujy7LqjoQ96GO3jUc",
-          "short_id": ""
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc"
       }
     },
     {
@@ -58,16 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - mao",
-        "🇨🇿 捷克 (Czech) 02 - mao"
+        "🇮🇷 IR 01 - mao"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - mao",
-        "🇨🇿 捷克 (Czech) 02 - mao"
+        "🇮🇷 IR 01 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
