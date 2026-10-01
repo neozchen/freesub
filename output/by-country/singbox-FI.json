@@ -11,27 +11,18 @@
       "uuid": "0c1b7949-fe09-43d9-863f-2c031f66bfc1"
     },
     {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 02 - mao",
-      "server": "204.168.147.195",
-      "server_port": 1085,
-      "uuid": "0c1b7949-fe09-43d9-863f-2c031f66bfc1"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 芬兰 (Finland) 01 - mao",
-        "🇫🇮 芬兰 (Finland) 02 - mao"
+        "🇫🇮 芬兰 (Finland) 01 - mao"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 芬兰 (Finland) 01 - mao",
-        "🇫🇮 芬兰 (Finland) 02 - mao"
+        "🇫🇮 芬兰 (Finland) 01 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
