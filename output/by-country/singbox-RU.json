@@ -4,9 +4,25 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - mao",
-      "server": "china.letsconnectpoint.com",
+      "server": "195.133.23.200",
+      "server_port": 20998,
+      "method": "aes-256-gcm",
+      "password": "81a20429165df87e"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - mao",
+      "server": "130.49.189.158",
+      "server_port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "IcovoXEMyjfGjN9RenzKs0/iPaZ3vtk9fkxJ0s/R5vw="
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - mao",
+      "server": "139.28.168.201",
       "server_port": 443,
       "uuid": "a368752a-32fc-42f3-980a-6b049218b23f",
       "flow": "xtls-rprx-vision",
@@ -15,7 +31,7 @@
         "server_name": "china.letsconnectpoint.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -25,18 +41,93 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - mao",
+      "server": "45.12.75.242",
+      "server_port": 26424,
+      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
+      "tls": {
+        "enabled": true,
+        "server_name": "ya.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
+          "short_id": "23103e1e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - mao",
+      "server": "176.109.111.154",
+      "server_port": 9881,
+      "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0",
+          "short_id": "aabbccdd"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-tunnel"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 - mao",
+      "server": "201.24.115.189",
+      "server_port": 443,
+      "uuid": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "nvidia.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
+          "short_id": "db04ce8bdb8900f1"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇺 俄罗斯 (Russia) 01 - mao"
+        "🇷🇺 俄罗斯 (Russia) 01 - mao",
+        "🇷🇺 俄罗斯 (Russia) 02 - mao",
+        "🇷🇺 俄罗斯 (Russia) 03 - mao",
+        "🇷🇺 俄罗斯 (Russia) 04 - mao",
+        "🇷🇺 俄罗斯 (Russia) 05 - mao",
+        "🇷🇺 俄罗斯 (Russia) 06 - mao"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 - mao"
+        "🇷🇺 俄罗斯 (Russia) 01 - mao",
+        "🇷🇺 俄罗斯 (Russia) 02 - mao",
+        "🇷🇺 俄罗斯 (Russia) 03 - mao",
+        "🇷🇺 俄罗斯 (Russia) 04 - mao",
+        "🇷🇺 俄罗斯 (Russia) 05 - mao",
+        "🇷🇺 俄罗斯 (Russia) 06 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
