@@ -5,21 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇱 智利 (Chile) 01 - mao",
-      "server": "34.176.187.219",
-      "server_port": 443,
-      "uuid": "ad5325f8-f0b3-41c4-a561-113529b60e70",
+      "tag": "🇻🇳 越南 (Vietnam) 01 - mao",
+      "server": "node1.csnety.com",
+      "server_port": 58111,
+      "uuid": "689c6e4f-8974-4fdb-8a35-cf2959277448",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "v1-dy.ixigua.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc",
-          "short_id": "2c2d919f5183d0b7"
+          "public_key": "9_-DFaGV2WwmOpZO5DZd2Ue3FlPGKjJ2BsKQmBDPREc",
+          "short_id": "09"
         }
       }
     },
@@ -28,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇱 智利 (Chile) 01 - mao"
+        "🇻🇳 越南 (Vietnam) 01 - mao"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇱 智利 (Chile) 01 - mao"
+        "🇻🇳 越南 (Vietnam) 01 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
