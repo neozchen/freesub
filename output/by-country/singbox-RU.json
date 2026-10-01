@@ -36,7 +36,7 @@
         "server_name": "china.letsconnectpoint.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -48,64 +48,13 @@
     {
       "type": "hysteria2",
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - mao",
-      "server": "els.mangshe.xyz",
-      "server_port": 2060,
-      "password": "5d0a6445-a30d-4522-bb1f-94f1d3ad63be",
-      "tls": {
-        "enabled": true,
-        "server_name": "els.mangshe.xyz",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - mao",
       "server": "91.240.86.70",
       "server_port": 22443,
       "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
       "tls": {
         "enabled": true,
-        "server_name": "itsallproxy.quattro-tech.ru",
+        "server_name": "91.240.86.70",
         "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - mao",
-      "server": "45.12.75.242",
-      "server_port": 26424,
-      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ya.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
-          "short_id": "23103e1e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - mao",
-      "server": "germany.tofreedom.ru",
-      "server_port": 8444,
-      "uuid": "9cb2520c-148b-4bbc-a149-9d5a43ff0db3",
-      "tls": {
-        "enabled": true,
-        "server_name": "germany.tofreedom.ru",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/c7f5317cd04691bc",
-        "headers": {
-          "Host": "germany.tofreedom.ru"
-        }
       }
     },
     {
@@ -115,10 +64,7 @@
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 - mao",
         "🇷🇺 俄罗斯 (Russia) 02 - mao",
-        "🇷🇺 俄罗斯 (Russia) 03 - mao",
-        "🇷🇺 俄罗斯 (Russia) 04 - mao",
-        "🇷🇺 俄罗斯 (Russia) 05 - mao",
-        "🇷🇺 俄罗斯 (Russia) 06 - mao"
+        "🇷🇺 俄罗斯 (Russia) 03 - mao"
       ]
     },
     {
@@ -127,10 +73,7 @@
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - mao",
         "🇷🇺 俄罗斯 (Russia) 02 - mao",
-        "🇷🇺 俄罗斯 (Russia) 03 - mao",
-        "🇷🇺 俄罗斯 (Russia) 04 - mao",
-        "🇷🇺 俄罗斯 (Russia) 05 - mao",
-        "🇷🇺 俄罗斯 (Russia) 06 - mao"
+        "🇷🇺 俄罗斯 (Russia) 03 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

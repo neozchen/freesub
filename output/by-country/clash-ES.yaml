@@ -40,7 +40,7 @@ proxies:
   grpc-opts:
     grpc-service-name: cdn.v1.AssetService
 - name: 🇪🇸 西班牙 (Spain) 05 - mao
-  server: mygptagent.org
+  server: 66.163.118.73
   port: 443
   udp: true
   type: vmess

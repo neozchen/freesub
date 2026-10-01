@@ -5,22 +5,27 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇻🇳 越南 (Vietnam) 01 - mao",
-      "server": "node1.csnety.com",
-      "server_port": 58111,
-      "uuid": "689c6e4f-8974-4fdb-8a35-cf2959277448",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇧🇾 白俄罗斯 (Belarus) 01 - mao",
+      "server": "89.125.96.76",
+      "server_port": 2053,
+      "uuid": "6c713691-3ca2-0008-ad25-113d1bed6b03",
       "tls": {
         "enabled": true,
-        "server_name": "v1-dy.ixigua.com",
+        "server_name": "wss.zazazuza.ru",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "9_-DFaGV2WwmOpZO5DZd2Ue3FlPGKjJ2BsKQmBDPREc",
-          "short_id": "09"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vpn-wss/fluxor/59011/",
+        "headers": {
+          "Host": "wss.zazazuza.ru"
         }
       }
     },
@@ -29,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇻🇳 越南 (Vietnam) 01 - mao"
+        "🇧🇾 白俄罗斯 (Belarus) 01 - mao"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇻🇳 越南 (Vietnam) 01 - mao"
+        "🇧🇾 白俄罗斯 (Belarus) 01 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
