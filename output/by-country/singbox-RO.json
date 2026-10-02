@@ -16,12 +16,16 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "🇷🇴 罗马尼亚 (Romania) 02 - mao",
-      "server": "154.46.31.106",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QFWzCw2uX9B9i6qAYeFBIE"
+      "server": "162.249.127.144",
+      "server_port": 8443,
+      "password": "9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z",
+      "tls": {
+        "enabled": true,
+        "server_name": "hop-germany-september.dynuddns.com",
+        "insecure": true
+      }
     },
     {
       "type": "hysteria2",
@@ -40,39 +44,13 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 04 - mao",
-      "server": "162.249.127.143",
-      "server_port": 8443,
-      "password": "9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z",
-      "tls": {
-        "enabled": true,
-        "server_name": "hop-germany-september.dynuddns.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 05 - mao",
-      "server": "185.156.44.99",
-      "server_port": 443,
-      "password": "gf1:gfhysteria2024",
-      "tls": {
-        "enabled": true,
-        "server_name": "whatsapp.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇷🇴 罗马尼亚 (Romania) 01 - mao",
         "🇷🇴 罗马尼亚 (Romania) 02 - mao",
-        "🇷🇴 罗马尼亚 (Romania) 03 - mao",
-        "🇷🇴 罗马尼亚 (Romania) 04 - mao",
-        "🇷🇴 罗马尼亚 (Romania) 05 - mao"
+        "🇷🇴 罗马尼亚 (Romania) 03 - mao"
       ]
     },
     {
@@ -81,9 +59,7 @@
       "outbounds": [
         "🇷🇴 罗马尼亚 (Romania) 01 - mao",
         "🇷🇴 罗马尼亚 (Romania) 02 - mao",
-        "🇷🇴 罗马尼亚 (Romania) 03 - mao",
-        "🇷🇴 罗马尼亚 (Romania) 04 - mao",
-        "🇷🇴 罗马尼亚 (Romania) 05 - mao"
+        "🇷🇴 罗马尼亚 (Romania) 03 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
