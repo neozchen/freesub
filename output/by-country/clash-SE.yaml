@@ -5,7 +5,47 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - mao
-  server: 5.157.10.148
+  server: 13.49.21.155
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇸🇪 瑞典 (Sweden) 02 - mao
+  server: 13.48.104.64
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇸🇪 瑞典 (Sweden) 03 - mao
+  server: 13.48.177.148
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇸🇪 瑞典 (Sweden) 04 - mao
+  server: 13.61.185.249
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇸🇪 瑞典 (Sweden) 05 - mao
+  server: 143.246.196.207
+  port: 443
+  udp: true
+  type: vless
+  uuid: ac0c2945-b758-11f1-8181-54db13ea7d40
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
+  servername: www.blocket.se
+  client-fingerprint: ''
+- name: 🇸🇪 瑞典 (Sweden) 06 - mao
+  server: surstreming.vvzzkontaktezzvv.garden
   port: 443
   udp: true
   type: vless
@@ -23,11 +63,21 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇸🇪 瑞典 (Sweden) 01 - mao
+  - 🇸🇪 瑞典 (Sweden) 02 - mao
+  - 🇸🇪 瑞典 (Sweden) 03 - mao
+  - 🇸🇪 瑞典 (Sweden) 04 - mao
+  - 🇸🇪 瑞典 (Sweden) 05 - mao
+  - 🇸🇪 瑞典 (Sweden) 06 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇸🇪 瑞典 (Sweden) 01 - mao
+  - 🇸🇪 瑞典 (Sweden) 02 - mao
+  - 🇸🇪 瑞典 (Sweden) 03 - mao
+  - 🇸🇪 瑞典 (Sweden) 04 - mao
+  - 🇸🇪 瑞典 (Sweden) 05 - mao
+  - 🇸🇪 瑞典 (Sweden) 06 - mao
 rules:
 - MATCH,PROXIES

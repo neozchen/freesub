@@ -6,26 +6,22 @@
     {
       "type": "hysteria2",
       "tag": "🇷🇴 罗马尼亚 (Romania) 01 - mao",
-      "server": "77.74.123.102",
+      "server": "77.74.123.104",
       "server_port": 8443,
       "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
       "tls": {
         "enabled": true,
         "server_name": "grape-test-italy.dynuddns.net",
-        "insecure": false
+        "insecure": true
       }
     },
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "🇷🇴 罗马尼亚 (Romania) 02 - mao",
-      "server": "162.249.127.146",
-      "server_port": 8443,
-      "password": "9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z",
-      "tls": {
-        "enabled": true,
-        "server_name": "hop-germany-september.dynuddns.com",
-        "insecure": false
-      }
+      "server": "154.46.31.106",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
     },
     {
       "type": "hysteria2",
@@ -46,6 +42,18 @@
     {
       "type": "hysteria2",
       "tag": "🇷🇴 罗马尼亚 (Romania) 04 - mao",
+      "server": "162.249.127.143",
+      "server_port": 8443,
+      "password": "9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z",
+      "tls": {
+        "enabled": true,
+        "server_name": "hop-germany-september.dynuddns.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 05 - mao",
       "server": "185.156.44.99",
       "server_port": 443,
       "password": "gf1:gfhysteria2024",
@@ -63,7 +71,8 @@
         "🇷🇴 罗马尼亚 (Romania) 01 - mao",
         "🇷🇴 罗马尼亚 (Romania) 02 - mao",
         "🇷🇴 罗马尼亚 (Romania) 03 - mao",
-        "🇷🇴 罗马尼亚 (Romania) 04 - mao"
+        "🇷🇴 罗马尼亚 (Romania) 04 - mao",
+        "🇷🇴 罗马尼亚 (Romania) 05 - mao"
       ]
     },
     {
@@ -73,7 +82,8 @@
         "🇷🇴 罗马尼亚 (Romania) 01 - mao",
         "🇷🇴 罗马尼亚 (Romania) 02 - mao",
         "🇷🇴 罗马尼亚 (Romania) 03 - mao",
-        "🇷🇴 罗马尼亚 (Romania) 04 - mao"
+        "🇷🇴 罗马尼亚 (Romania) 04 - mao",
+        "🇷🇴 罗马尼亚 (Romania) 05 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
