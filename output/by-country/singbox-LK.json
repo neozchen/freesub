@@ -6,7 +6,21 @@
     {
       "type": "vless",
       "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 01 - mao",
-      "server": "140.245.120.16",
+      "server": "cdn.zoom.us",
+      "server_port": 80,
+      "uuid": "1eaed465-d720-400b-9f9f-439600a2d093",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cloud.ghostdev.lk"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 02 - mao",
+      "server": "trackydev.site",
       "server_port": 443,
       "uuid": "92d67828-4c56-4795-af5a-f387651380dc",
       "tls": {
@@ -15,7 +29,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         }
       },
       "transport": {
@@ -31,14 +45,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - mao"
+        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - mao",
+        "🇱🇰 斯里兰卡 (Sri Lanka) 02 - mao"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - mao"
+        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - mao",
+        "🇱🇰 斯里兰卡 (Sri Lanka) 02 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
