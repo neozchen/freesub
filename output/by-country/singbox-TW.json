@@ -11,13 +11,21 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https%3a%2f%2ft.me%2foneclickvpnkeys",
+        "server_name": "103.115.109.49",
         "insecure": true
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇹🇼 中国台湾 (Taiwan) 02 - mao",
+      "server": "165.154.195.38",
+      "server_port": 35034,
+      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+      "security": "auto"
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - mao",
       "server": "34.80.248.240",
       "server_port": 443,
       "uuid": "31a40f42-4ad6-4a32-a760-71102b459584",
@@ -37,7 +45,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - mao",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - mao",
       "server": "60.248.219.78",
       "server_port": 443,
       "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
@@ -55,14 +63,34 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 05 - mao",
+      "server": "35.201.197.4",
+      "server_port": 443,
+      "uuid": "22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0",
+          "short_id": "32f66f37df3f58d2"
+        }
+      }
+    },
+    {
       "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - mao",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 06 - mao",
       "server": "vpn-tw-002.fastervpn.world",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "vpn-tw-002.fastervpn.world\\u0026insecure=1\\u0026allowinsecure=1",
+        "server_name": "vpn-tw-002.fastervpn.world%5cu0026insecure%3d1%5cu0026allowinsecure%3d1",
         "insecure": true
       }
     },
@@ -74,7 +102,9 @@
         "🇹🇼 中国台湾 (Taiwan) 01 - mao",
         "🇹🇼 中国台湾 (Taiwan) 02 - mao",
         "🇹🇼 中国台湾 (Taiwan) 03 - mao",
-        "🇹🇼 中国台湾 (Taiwan) 04 - mao"
+        "🇹🇼 中国台湾 (Taiwan) 04 - mao",
+        "🇹🇼 中国台湾 (Taiwan) 05 - mao",
+        "🇹🇼 中国台湾 (Taiwan) 06 - mao"
       ]
     },
     {
@@ -84,7 +114,9 @@
         "🇹🇼 中国台湾 (Taiwan) 01 - mao",
         "🇹🇼 中国台湾 (Taiwan) 02 - mao",
         "🇹🇼 中国台湾 (Taiwan) 03 - mao",
-        "🇹🇼 中国台湾 (Taiwan) 04 - mao"
+        "🇹🇼 中国台湾 (Taiwan) 04 - mao",
+        "🇹🇼 中国台湾 (Taiwan) 05 - mao",
+        "🇹🇼 中国台湾 (Taiwan) 06 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

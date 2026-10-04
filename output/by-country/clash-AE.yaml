@@ -15,14 +15,17 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 02 - mao
-  server: uae.unixzone.us
-  port: 22573
+  server: 31.59.150.11
+  port: 443
   udp: true
   type: vless
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  network: ws
-  ws-opts:
-    path: /
+  uuid: cc4d63e2-3a86-49b3-9598-328bbe93e56c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: yI6maXxTQ8zRHg39X8YMQtKW-IVfNIn0_OCUIQKmcXw
+  servername: google.com
+  client-fingerprint: qq
 - name: 🇦🇪 阿联酋 (UAE) 03 - mao
   server: 144.31.49.47
   port: 443
@@ -30,7 +33,18 @@ proxies:
   type: hysteria2
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   sni: admin.wwwinternetvideo.click
-  skip-cert-verify: true
+  skip-cert-verify: false
+- name: 🇦🇪 阿联酋 (UAE) 04 - mao
+  server: 84.235.244.108
+  port: 22573
+  udp: true
+  type: vless
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,6 +53,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - mao
   - 🇦🇪 阿联酋 (UAE) 02 - mao
   - 🇦🇪 阿联酋 (UAE) 03 - mao
+  - 🇦🇪 阿联酋 (UAE) 04 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -47,5 +62,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - mao
   - 🇦🇪 阿联酋 (UAE) 02 - mao
   - 🇦🇪 阿联酋 (UAE) 03 - mao
+  - 🇦🇪 阿联酋 (UAE) 04 - mao
 rules:
 - MATCH,PROXIES
