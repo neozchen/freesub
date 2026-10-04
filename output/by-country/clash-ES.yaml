@@ -31,17 +31,6 @@ proxies:
   type: ss
   cipher: chacha20-ietf-poly1305
   password: WSyL4XTwNsdv
-- name: 🇪🇸 西班牙 (Spain) 04 - mao
-  server: 185.114.72.31
-  port: 2053
-  udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
 proxy-groups:
 - name: PROXIES
   type: select
@@ -50,7 +39,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 01 - mao
   - 🇪🇸 西班牙 (Spain) 02 - mao
   - 🇪🇸 西班牙 (Spain) 03 - mao
-  - 🇪🇸 西班牙 (Spain) 04 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -59,6 +47,5 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 01 - mao
   - 🇪🇸 西班牙 (Spain) 02 - mao
   - 🇪🇸 西班牙 (Spain) 03 - mao
-  - 🇪🇸 西班牙 (Spain) 04 - mao
 rules:
 - MATCH,PROXIES
