@@ -5,24 +5,15 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - mao",
-      "server": "116.204.164.17",
-      "server_port": 7443,
-      "uuid": "ef8907eb-8bb5-4735-80f2-1d0068500d95",
-      "tls": {
-        "enabled": true,
-        "server_name": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "tag": "🇺🇸 美国 (United States) 01 (移动家宽) - mao",
+      "server": "172.64.158.146",
+      "server_port": 80,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
-        "path": "/@Marisa_kristi",
+        "path": "/?ed=2560security=tls",
         "headers": {
-          "Host": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
         }
       }
     },
@@ -36,7 +27,7 @@
     {
       "type": "vless",
       "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - mao",
-      "server": "argo6.5671234.xyz",
+      "server": "172.66.152.4",
       "server_port": 443,
       "uuid": "08aaab35-a42d-4755-a03e-20c18cb1b3e8",
       "tls": {
@@ -57,7 +48,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇯🇵 日本 (Japan) 01 (家宽) - mao",
+        "🇺🇸 美国 (United States) 01 (移动家宽) - mao",
         "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - mao",
         "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - mao"
       ]
@@ -66,7 +57,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇯🇵 日本 (Japan) 01 (家宽) - mao",
+        "🇺🇸 美国 (United States) 01 (移动家宽) - mao",
         "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - mao",
         "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - mao"
       ],

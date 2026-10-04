@@ -27,6 +27,22 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - mao",
+      "server": "172.234.97.206",
+      "server_port": 8443,
+      "uuid": "9cdcec15-2c73-40d5-b50f-d00381fddd26",
+      "tls": {
+        "enabled": true,
+        "server_name": "stsr.hospitaldt.ir",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 03 - mao",
       "server": "144.31.235.214",
       "server_port": 443,
       "uuid": "8f6e49e6-7f03-4f10-9da9-1716158d80ed",
@@ -47,7 +63,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 03 - mao",
+      "tag": "🇸🇪 瑞典 (Sweden) 04 - mao",
       "server": "94.143.231.146",
       "server_port": 443,
       "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
@@ -70,7 +86,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 04 - mao",
+      "tag": "🇸🇪 瑞典 (Sweden) 05 - mao",
       "server": "177.3.209.165",
       "server_port": 443,
       "uuid": "a5dd2dd9-0995-449e-be67-4a409890dc42",
@@ -97,7 +113,8 @@
         "🇸🇪 瑞典 (Sweden) 01 - mao",
         "🇸🇪 瑞典 (Sweden) 02 - mao",
         "🇸🇪 瑞典 (Sweden) 03 - mao",
-        "🇸🇪 瑞典 (Sweden) 04 - mao"
+        "🇸🇪 瑞典 (Sweden) 04 - mao",
+        "🇸🇪 瑞典 (Sweden) 05 - mao"
       ]
     },
     {
@@ -107,7 +124,8 @@
         "🇸🇪 瑞典 (Sweden) 01 - mao",
         "🇸🇪 瑞典 (Sweden) 02 - mao",
         "🇸🇪 瑞典 (Sweden) 03 - mao",
-        "🇸🇪 瑞典 (Sweden) 04 - mao"
+        "🇸🇪 瑞典 (Sweden) 04 - mao",
+        "🇸🇪 瑞典 (Sweden) 05 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -6,48 +6,6 @@
     {
       "type": "vless",
       "tag": "🇨🇱 智利 (Chile) 01 - mao",
-      "server": "platform118.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform118",
-        "headers": {
-          "Host": "platform118.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇱 智利 (Chile) 02 - mao",
-      "server": "platform101.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform101",
-        "headers": {
-          "Host": "platform101.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇱 智利 (Chile) 03 - mao",
-      "server": "platform117.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform117",
-        "headers": {
-          "Host": "platform117.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇱 智利 (Chile) 04 - mao",
       "server": "platform115.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -61,7 +19,74 @@
     },
     {
       "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 02 - mao",
+      "server": "platform107.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform107"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 03 - mao",
+      "server": "platform118.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform118",
+        "headers": {
+          "Host": "platform118.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 04 - mao",
+      "server": "64.176.16.32",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform113",
+        "headers": {
+          "Host": "platform113.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇨🇱 智利 (Chile) 05 - mao",
+      "server": "platform109.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform109",
+        "headers": {
+          "Host": "platform109.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 06 - mao",
+      "server": "platform106.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform106",
+        "headers": {
+          "Host": "platform106.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 07 - mao",
       "server": "platform103.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -75,21 +100,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇱 智利 (Chile) 06 - mao",
-      "server": "platform107.golnamakcert.top",
+      "tag": "🇨🇱 智利 (Chile) 08 - mao",
+      "server": "platform117.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform107",
+        "path": "/platform117",
         "headers": {
-          "Host": "platform107.halalkhor.info"
+          "Host": "platform117.halalkhor.info"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇱 智利 (Chile) 07 - mao",
+      "tag": "🇨🇱 智利 (Chile) 09 - mao",
       "server": "platform102.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -103,15 +128,15 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇱 智利 (Chile) 08 - mao",
-      "server": "platform106.golnamakcert.top",
+      "tag": "🇨🇱 智利 (Chile) 10 - mao",
+      "server": "platform101.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform106",
+        "path": "/platform101",
         "headers": {
-          "Host": "platform106.halalkhor.info"
+          "Host": "platform101.halalkhor.info"
         }
       }
     },
@@ -127,7 +152,9 @@
         "🇨🇱 智利 (Chile) 05 - mao",
         "🇨🇱 智利 (Chile) 06 - mao",
         "🇨🇱 智利 (Chile) 07 - mao",
-        "🇨🇱 智利 (Chile) 08 - mao"
+        "🇨🇱 智利 (Chile) 08 - mao",
+        "🇨🇱 智利 (Chile) 09 - mao",
+        "🇨🇱 智利 (Chile) 10 - mao"
       ]
     },
     {
@@ -141,7 +168,9 @@
         "🇨🇱 智利 (Chile) 05 - mao",
         "🇨🇱 智利 (Chile) 06 - mao",
         "🇨🇱 智利 (Chile) 07 - mao",
-        "🇨🇱 智利 (Chile) 08 - mao"
+        "🇨🇱 智利 (Chile) 08 - mao",
+        "🇨🇱 智利 (Chile) 09 - mao",
+        "🇨🇱 智利 (Chile) 10 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

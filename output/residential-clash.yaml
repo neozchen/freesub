@@ -4,21 +4,17 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇯🇵 日本 (Japan) 01 (家宽) - mao
-  server: 116.204.164.17
-  port: 7443
+- name: 🇺🇸 美国 (United States) 01 (移动家宽) - mao
+  server: 172.64.158.146
+  port: 80
   udp: true
   type: vless
-  uuid: ef8907eb-8bb5-4735-80f2-1d0068500d95
-  tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   network: ws
   ws-opts:
-    path: /@Marisa_kristi
+    path: /?ed=2560security=tls
     headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - mao
   server: test.keoplentuio.xyz
   port: 2053
@@ -26,7 +22,7 @@ proxies:
   type: vless
   uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
 - name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - mao
-  server: argo6.5671234.xyz
+  server: 172.66.152.4
   port: 443
   udp: true
   type: vless
@@ -44,7 +40,7 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇯🇵 日本 (Japan) 01 (家宽) - mao
+  - 🇺🇸 美国 (United States) 01 (移动家宽) - mao
   - 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - mao
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - mao
 - name: AUTO
@@ -52,7 +48,7 @@ proxy-groups:
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇯🇵 日本 (Japan) 01 (家宽) - mao
+  - 🇺🇸 美国 (United States) 01 (移动家宽) - mao
   - 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - mao
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - mao
 rules:

@@ -18,6 +18,18 @@ proxies:
   servername: d3-se1.cloud-cdn.xyz
   client-fingerprint: firefox
 - name: 🇸🇪 瑞典 (Sweden) 02 - mao
+  server: 172.234.97.206
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 9cdcec15-2c73-40d5-b50f-d00381fddd26
+  tls: true
+  servername: stsr.hospitaldt.ir
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇸🇪 瑞典 (Sweden) 03 - mao
   server: 144.31.235.214
   port: 443
   udp: true
@@ -30,7 +42,7 @@ proxies:
     short-id: 5629431325884ff0
   servername: swed4.o4ka-internet.com
   client-fingerprint: firefox
-- name: 🇸🇪 瑞典 (Sweden) 03 - mao
+- name: 🇸🇪 瑞典 (Sweden) 04 - mao
   server: 94.143.231.146
   port: 443
   udp: true
@@ -45,7 +57,7 @@ proxies:
     path: /merky-connect/de6/
     headers:
       Host: sub.merky.top
-- name: 🇸🇪 瑞典 (Sweden) 04 - mao
+- name: 🇸🇪 瑞典 (Sweden) 05 - mao
   server: 177.3.209.165
   port: 443
   udp: true
@@ -67,6 +79,7 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 02 - mao
   - 🇸🇪 瑞典 (Sweden) 03 - mao
   - 🇸🇪 瑞典 (Sweden) 04 - mao
+  - 🇸🇪 瑞典 (Sweden) 05 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -76,5 +89,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 02 - mao
   - 🇸🇪 瑞典 (Sweden) 03 - mao
   - 🇸🇪 瑞典 (Sweden) 04 - mao
+  - 🇸🇪 瑞典 (Sweden) 05 - mao
 rules:
 - MATCH,PROXIES

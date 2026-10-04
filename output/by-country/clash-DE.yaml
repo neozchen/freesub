@@ -5,207 +5,28 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - mao
-  server: 188.114.97.6
-  port: 8080
-  udp: true
-  type: vless
-  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
-- name: 🇩🇪 德国 (Germany) 02 - mao
-  server: 104.21.42.129
-  port: 2087
+  server: 167.82.76.27
+  port: 443
   udp: true
   type: trojan
-  password: eabf1999fefbb7d2
-  sni: WaYSi.wAYsI6688.WOrkeRS.deV
+  password: mitivpn
+  sni: ssl.fastly.com
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /tr/sMpzOZ0eWEt6jbZ1jjN3BaM7LLoQ
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇩🇪 德国 (Germany) 02 - mao
+  server: 167.82.76.7
+  port: 443
+  udp: true
+  type: trojan
+  password: mitivpn
+  sni: ssl.fastly.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
 - name: 🇩🇪 德国 (Germany) 03 - mao
-  server: 188.114.97.8
-  port: 8443
-  udp: true
-  type: vless
-  uuid: d4d2d3f3-9dec-4e8f-8daf-145ecac96e66
-  tls: true
-  servername: cRIMSON-LeAf-7E45.hzhdUuEBFjDCB.workERs.DEv
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: crimson-leaf-7e45.hzhduuebfjdcb.workers.dev
-- name: 🇩🇪 德国 (Germany) 04 - mao
-  server: 104.18.34.21
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 656bb400-3b7a-47e3-94b0-0362f3865072
-  tls: true
-  servername: socks5.revil-time3.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /socks5://128.140.46.169:13482
-    headers:
-      Host: socks5.revil-time3.workers.dev
-- name: 🇩🇪 德国 (Germany) 05 - mao
-  server: 188.114.97.6
-  port: 443
-  udp: true
-  type: vless
-  uuid: 07821f66-cdb7-4c70-9de6-e230cffac470
-  tls: true
-  servername: wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vl/Li1khIHH3DNItJyzraemsPBQvu
-    headers:
-      Host: wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev
-- name: 🇩🇪 德国 (Germany) 06 - mao
-  server: 104.17.147.22
-  port: 443
-  udp: true
-  type: vless
-  uuid: 513beae3-56e7-4954-a17e-930e06237b27
-  tls: true
-  servername: CfOI-2FX16g3-8rY2kdXmCJ.WJeSv2ILA3rXbUhpC2NSugRAchGaWK.WOrkeRs.DEV
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/3wSAeuGJbrGHwJ45DA6ircvHC6
-    headers:
-      Host: cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev
-- name: 🇩🇪 德国 (Germany) 07 - mao
-  server: 104.21.16.109
-  port: 443
-  udp: true
-  type: vless
-  uuid: cc08d2d0-8a7a-4469-81d2-c43704451271
-  tls: true
-  servername: 9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/6871nrbnl9WsdAiOUInt
-    headers:
-      Host: 9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev
-- name: 🇩🇪 德国 (Germany) 08 - mao
-  server: 104.21.69.37
-  port: 443
-  udp: true
-  type: vless
-  uuid: 911b84e1-d046-4fbf-bfc0-c168791115ef
-  tls: true
-  servername: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/uWq9DFRgj8BwQiSXmZ46
-    headers:
-      Host: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
-- name: 🇩🇪 德国 (Germany) 09 - mao
-  server: 188.114.96.7
-  port: 443
-  udp: true
-  type: vless
-  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
-  tls: true
-  servername: o94yv7lIF0-AnXiSd9EFeHVVS7mxn6Bh.z-ULe-IKA-d-e-Ne-k-E.WORKERs.DEv
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
-- name: 🇩🇪 德国 (Germany) 10 - mao
-  server: 162.159.153.4
-  port: 443
-  udp: true
-  type: vless
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  tls: true
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
-- name: 🇩🇪 德国 (Germany) 11 - mao
-  server: 172.67.130.187
-  port: 2083
-  udp: true
-  type: vless
-  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
-  tls: true
-  servername: fans.liverpool.qzz.io
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: fans.liverpool.qzz.io
-- name: 🇩🇪 德国 (Germany) 12 - mao
-  server: 172.66.44.124
-  port: 8443
-  udp: true
-  type: vless
-  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
-  tls: true
-  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-  skip-cert-verify: false
-  client-fingerprint: randomized
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-- name: 🇩🇪 德国 (Germany) 13 - mao
-  server: 45.130.125.207
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 31aa0950-eb19-45ff-94a2-af416deb3b90
-  tls: true
-  servername: SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: square-salad-ebde.zdfgvccfguuyggg.workers.dev
-- name: 🇩🇪 德国 (Germany) 14 - mao
-  server: 188.114.97.7
-  port: 443
-  udp: true
-  type: vless
-  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
-  tls: true
-  servername: o94Yv7LIF0-aNXISd9eFehvvS7mxn6bH.Z-ULe-iKa-d-e-ne-K-e.wORkeRs.Dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /7J5lLqtBnJg9WjVT?ed
-    headers:
-      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
-- name: 🇩🇪 德国 (Germany) 15 - mao
   server: 199.232.78.101
   port: 443
   udp: true
@@ -216,63 +37,7 @@ proxies:
   network: ws
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇩🇪 德国 (Germany) 16 - mao
-  server: 104.21.16.123
-  port: 443
-  udp: true
-  type: trojan
-  password: Telegram_healer_config
-  sni: 7x7o3vtq5z6ymu3hv1fh-op9blt.hya6losm6lznoxhm6w3mk.workers.dev
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /tr/qL8YIeH28wNcXfNTPgLCwOhNFEr?ed=2560
-- name: 🇩🇪 德国 (Germany) 17 - mao
-  server: 172.64.155.209
-  port: 443
-  udp: true
-  type: vless
-  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
-  tls: true
-  servername: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: ancient-heart-60c5.dpccgizieb.workers.dev
-- name: 🇩🇪 德国 (Germany) 18 - mao
-  server: 104.17.148.22
-  port: 443
-  udp: true
-  type: vless
-  uuid: 513beae3-56e7-4954-a17e-930e06237b27
-  tls: true
-  servername: CfOI-2FX16g3-8rY2kdXmCJ.WJeSv2ILA3rXbUhpC2NSugRAchGaWK.WOrkeRs.DEV
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/3wSAeuGJbrGHwJ45DA6ircvHC6
-    headers:
-      Host: cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev
-- name: 🇩🇪 德国 (Germany) 19 - mao
-  server: 104.21.70.223
-  port: 443
-  udp: true
-  type: vless
-  uuid: 527451fe-ee1f-4e6f-94ca-808f055f7c9b
-  tls: true
-  servername: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/ERYN0G44hia16zhR
-    headers:
-      Host: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
-- name: 🇩🇪 德国 (Germany) 20 - mao
+- name: 🇩🇪 德国 (Germany) 04 - mao
   server: 216.106.187.60
   port: 22324
   udp: true
@@ -280,21 +45,29 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
   cipher: auto
-- name: 🇩🇪 德国 (Germany) 21 - mao
-  server: 31.76.11.83
-  port: 11650
+- name: 🇩🇪 德国 (Germany) 05 - mao
+  server: 51.195.126.38
+  port: 8388
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: iku/Gfrt9YeEUUleXr2Ptf3uvs0hszCR0JHPqGSjs+c=
-- name: 🇩🇪 德国 (Germany) 22 - mao
+  password: 2YdE4lFOid5a
+- name: 🇩🇪 德国 (Germany) 06 - mao
+  server: 31.77.8.97
+  port: 110
+  udp: true
+  type: vmess
+  uuid: d2d8601b-c14b-42c6-b8ea-33889bce152a
+  alterId: 0
+  cipher: auto
+- name: 🇩🇪 德国 (Germany) 07 - mao
   server: 185.226.172.8
   port: 8008
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: XKFKl2rULjIp74
-- name: 🇩🇪 德国 (Germany) 23 - mao
+- name: 🇩🇪 德国 (Germany) 08 - mao
   server: 185.177.229.128
   port: 22324
   udp: true
@@ -302,38 +75,29 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
   cipher: auto
-- name: 🇩🇪 德国 (Germany) 24 - mao
-  server: 185.177.229.129
-  port: 22324
+- name: 🇩🇪 德国 (Germany) 09 - mao
+  server: 8.209.74.72
+  port: 20001
   udp: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-- name: 🇩🇪 德国 (Germany) 25 - mao
-  server: 172.67.167.77
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: PWpjPo3tqhPN4yRZ
+- name: 🇩🇪 德国 (Germany) 10 - mao
+  server: 209.46.102.22
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 1hhrqrokj3ag
+- name: 🇩🇪 德国 (Germany) 11 - mao
+  server: pleased-albacore.rooster465.autos
   port: 443
   udp: true
-  type: vless
-  uuid: cc08d2d0-8a7a-4469-81d2-c43704451271
-  tls: true
-  servername: 9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev
+  type: trojan
+  password: UX82473651
+  sni: pleased-albacore.rooster465.autos
   skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/6871nrbnl9WsdAiOUInt
-    headers:
-      Host: 9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev
-- name: 🇩🇪 德国 (Germany) 26 - mao
-  server: 31.76.11.83
-  port: 23325
-  udp: true
-  type: vmess
-  uuid: 3dff544a-379e-41f9-95d9-4b95a8e4026e
-  alterId: 0
-  cipher: auto
-- name: 🇩🇪 德国 (Germany) 27 - mao
+- name: 🇩🇪 德国 (Germany) 12 - mao
   server: 139.162.149.105
   port: 80
   udp: true
@@ -342,22 +106,33 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇩🇪 德国 (Germany) 28 - mao
-  server: 8.209.74.72
-  port: 20001
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: PWpjPo3tqhPN4yRZ
-- name: 🇩🇪 德国 (Germany) 29 - mao
-  server: pleased-albacore.rooster465.autos
+- name: 🇩🇪 德国 (Germany) 13 - mao
+  server: 31.77.168.33
   port: 443
   udp: true
   type: trojan
-  password: UX82473651
-  sni: pleased-albacore.rooster465.autos
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 30 - mao
+  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
+  sni: d3-de2.cloud-cdn.xyz
+  skip-cert-verify: false
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ajv
+- name: 🇩🇪 德国 (Germany) 14 - mao
+  server: 185.177.229.129
+  port: 22324
+  udp: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+- name: 🇩🇪 德国 (Germany) 15 - mao
+  server: 169.150.210.233
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇩🇪 德国 (Germany) 16 - mao
   server: 31.77.168.21
   port: 443
   udp: true
@@ -368,14 +143,26 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ajv
-- name: 🇩🇪 德国 (Germany) 31 - mao
-  server: 51.195.126.38
-  port: 8388
+- name: 🇩🇪 德国 (Germany) 17 - mao
+  server: meet-goshawk.rooster465.autos
+  port: 443
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2YdE4lFOid5a
-- name: 🇩🇪 德国 (Germany) 32 - mao
+  type: trojan
+  password: UX82473651
+  sni: meet-goshawk.rooster465.autos
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 18 - mao
+  server: 31.77.168.35
+  port: 443
+  udp: true
+  type: trojan
+  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
+  sni: d3-de2.cloud-cdn.xyz
+  skip-cert-verify: false
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ajv
+- name: 🇩🇪 德国 (Germany) 19 - mao
   server: 31.77.109.35
   port: 443
   udp: true
@@ -388,90 +175,14 @@ proxies:
     short-id: 494afdc75f8c2fa8
   servername: d3-de1.cloud-cdn.xyz
   client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 33 - mao
-  server: 209.46.102.22
-  port: 8388
+- name: 🇩🇪 德国 (Germany) 20 - mao
+  server: 2.58.81.221
+  port: 443
   udp: true
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 1hhrqrokj3ag
-- name: 🇩🇪 德国 (Germany) 34 - mao
-  server: 169.150.210.233
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇩🇪 德国 (Germany) 35 - mao
-  server: meet-goshawk.rooster465.autos
-  port: 443
-  udp: true
-  type: trojan
-  password: UX82473651
-  sni: meet-goshawk.rooster465.autos
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 36 - mao
-  server: 3.120.109.26
-  port: 443
-  udp: true
-  type: trojan
-  password: UX82473651
-  sni: actual-squid.rooster465.autos
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 37 - mao
-  server: 104.245.240.2
-  port: 8443
-  udp: true
-  type: vless
-  uuid: c0acd42e-bf36-4747-90a0-a4a3a8774fdc
-  tls: true
-  reality-opts:
-    public-key: sRTNjrosfFSiuQX7Yt7Ub5DJvFznfHSC3nlzFQ3H2WU
-  servername: cdn.steamstatic.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇩🇪 德国 (Germany) 38 - mao
-  server: 37.120.222.70
-  port: 8082
-  udp: true
-  type: vless
-  uuid: 59c3c1c7-62d0-4707-9d67-5ff9c008591c
-  tls: true
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-- name: 🇩🇪 德国 (Germany) 39 - mao
-  server: id-nl-01.mintrocket.org
-  port: 443
-  udp: true
-  type: vless
-  uuid: f0a52dd3-4377-4402-a450-210bc81bcf25
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: XU7da9vkBex4TUPo1d-ctFY_N6zouBiCRnbnUK82i3Q
-    short-id: fee1f986a72444db
-  servername: id-nl-01.mintrocket.org
-  client-fingerprint: safari
-- name: 🇩🇪 德国 (Germany) 40 - mao
-  server: 57.129.41.216
-  port: 80
-  udp: true
-  type: vless
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: OV-Germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 41 - mao
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
+- name: 🇩🇪 德国 (Germany) 21 - mao
   server: rubifen.adaspoloandco.com
   port: 443
   udp: true
@@ -480,56 +191,18 @@ proxies:
   tls: true
   servername: rubifen.adaspoloandco.com
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /GOrbEh
-- name: 🇩🇪 德国 (Germany) 42 - mao
-  server: ghatem.color-shop.ir
+- name: 🇩🇪 德国 (Germany) 22 - mao
+  server: 3.120.109.26
   port: 443
   udp: true
-  type: vless
-  uuid: fdc1206a-9d2e-42b7-b615-9ccea8cf70ee
-  tls: true
-  reality-opts:
-    public-key: PeS4xF85yQ_eE-gqFBQnq2ylysTtQIx5D6HZNyQJS1w
-    short-id: 9f5a01a37505cf29
-  servername: vox-cdn.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 43 - mao
-  server: arcturus.yokkastars.com
-  port: 40443
-  udp: true
-  type: vless
-  uuid: bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: w4AYHvQnQS6olDqoG9ptLOtgehaWOsv9HQhDax5bLA4
-    short-id: db46e2946fc466fd
-  servername: deepl.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 44 - mao
-  server: lcxngh.gomqiro.ir
-  port: 4000
-  udp: true
-  type: vless
-  uuid: 83db8840-0d41-4a23-9ec3-682380924eb5
-  tls: true
-  reality-opts:
-    public-key: gNJZix6GHGuB246_yD6n0EQQY-6Vb1zXg3ipjnubawE
-    short-id: 6d66b2bd572f34fb
-  servername: play.googleapis.com
-  client-fingerprint: edge
-- name: 🇩🇪 德国 (Germany) 45 - mao
-  server: 31.77.8.97
-  port: 110
-  udp: true
-  type: vmess
-  uuid: d2d8601b-c14b-42c6-b8ea-33889bce152a
-  alterId: 0
-  cipher: auto
-- name: 🇩🇪 德国 (Germany) 46 - mao
+  type: trojan
+  password: UX82473651
+  sni: actual-squid.rooster465.autos
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 23 - mao
   server: 82.39.171.142
   port: 443
   udp: true
@@ -542,7 +215,41 @@ proxies:
     short-id: c39cc7310a
   servername: yahoo.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 47 - mao
+- name: 🇩🇪 德国 (Germany) 24 - mao
+  server: 57.129.41.216
+  port: 80
+  udp: true
+  type: vless
+  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: OV-Germany1.09vpn.com
+- name: 🇩🇪 德国 (Germany) 25 - mao
+  server: 172.67.155.68
+  port: 443
+  udp: true
+  type: vless
+  uuid: a2c57a6c-dacb-44d1-9055-fb42d4c888a5
+  tls: true
+  servername: pew.dianawmoon.dpdns.org
+  skip-cert-verify: false
+  client-fingerprint: random
+  network: httpupgrade
+  httpupgrade-opts:
+    path: /27729/dianahtupgd
+    headers:
+      Host: pew.dianawmoon.dpdns.org
+- name: 🇩🇪 德国 (Germany) 26 - mao
+  server: 31.76.11.83
+  port: 23325
+  udp: true
+  type: vmess
+  uuid: 3dff544a-379e-41f9-95d9-4b95a8e4026e
+  alterId: 0
+  cipher: auto
+- name: 🇩🇪 德国 (Germany) 27 - mao
   server: 82.39.171.12
   port: 443
   udp: true
@@ -555,50 +262,27 @@ proxies:
     short-id: c39cc7310a
   servername: yahoo.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 48 - mao
-  server: 2.58.81.221
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: kKEd0rBrd56Furjz
-- name: 🇩🇪 德国 (Germany) 49 - mao
-  server: 64.188.119.177
-  port: 28015
-  udp: true
-  type: hysteria2
-  password: e19b5aa3-16c9-435a-8bc9-76f2f6ddff43
-  sni: api-test-udp-trf.kaneki.cfd
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 50 - mao
-  server: 91.107.191.165
-  port: 2
+- name: 🇩🇪 德国 (Germany) 28 - mao
+  server: 31.76.11.83
+  port: 26150
   udp: true
   type: vless
-  uuid: 9f15b600-ce52-447f-b388-ef70de75308e
-- name: 🇩🇪 德国 (Germany) 51 - mao
-  server: 80.93.202.147
+  uuid: e676c6c8-44a8-4a1d-82cc-821a1f70f0c0
+- name: 🇩🇪 德国 (Germany) 29 - mao
+  server: 104.21.72.213
   port: 443
   udp: true
   type: vless
-  uuid: 50414e45-4c5f-5a45-5553-b52a90ada6ab
+  uuid: a2c57a6c-dacb-44d1-9055-fb42d4c888a5
   tls: true
-  servername: trex-panel-ew6n46.zeus-e0oqfp.workers.dev
+  servername: pew.dianawmoon.dpdns.org
   skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /stream/TrexBridge/b52a90ada6ab
+  client-fingerprint: random
+  network: httpupgrade
+  httpupgrade-opts:
+    path: /27729/dianahtupgd
     headers:
-      Host: trex-panel-ew6n46.zeus-e0oqfp.workers.dev
-- name: 🇩🇪 德国 (Germany) 52 - mao
-  server: de1.xiaoliyu.cyou
-  port: 4433
-  udp: true
-  type: hysteria2
-  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
-  sni: de1.xiaoliyu.cyou
-  skip-cert-verify: true
+      Host: pew.dianawmoon.dpdns.org
 proxy-groups:
 - name: PROXIES
   type: select
@@ -633,29 +317,6 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 27 - mao
   - 🇩🇪 德国 (Germany) 28 - mao
   - 🇩🇪 德国 (Germany) 29 - mao
-  - 🇩🇪 德国 (Germany) 30 - mao
-  - 🇩🇪 德国 (Germany) 31 - mao
-  - 🇩🇪 德国 (Germany) 32 - mao
-  - 🇩🇪 德国 (Germany) 33 - mao
-  - 🇩🇪 德国 (Germany) 34 - mao
-  - 🇩🇪 德国 (Germany) 35 - mao
-  - 🇩🇪 德国 (Germany) 36 - mao
-  - 🇩🇪 德国 (Germany) 37 - mao
-  - 🇩🇪 德国 (Germany) 38 - mao
-  - 🇩🇪 德国 (Germany) 39 - mao
-  - 🇩🇪 德国 (Germany) 40 - mao
-  - 🇩🇪 德国 (Germany) 41 - mao
-  - 🇩🇪 德国 (Germany) 42 - mao
-  - 🇩🇪 德国 (Germany) 43 - mao
-  - 🇩🇪 德国 (Germany) 44 - mao
-  - 🇩🇪 德国 (Germany) 45 - mao
-  - 🇩🇪 德国 (Germany) 46 - mao
-  - 🇩🇪 德国 (Germany) 47 - mao
-  - 🇩🇪 德国 (Germany) 48 - mao
-  - 🇩🇪 德国 (Germany) 49 - mao
-  - 🇩🇪 德国 (Germany) 50 - mao
-  - 🇩🇪 德国 (Germany) 51 - mao
-  - 🇩🇪 德国 (Germany) 52 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -690,28 +351,5 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 27 - mao
   - 🇩🇪 德国 (Germany) 28 - mao
   - 🇩🇪 德国 (Germany) 29 - mao
-  - 🇩🇪 德国 (Germany) 30 - mao
-  - 🇩🇪 德国 (Germany) 31 - mao
-  - 🇩🇪 德国 (Germany) 32 - mao
-  - 🇩🇪 德国 (Germany) 33 - mao
-  - 🇩🇪 德国 (Germany) 34 - mao
-  - 🇩🇪 德国 (Germany) 35 - mao
-  - 🇩🇪 德国 (Germany) 36 - mao
-  - 🇩🇪 德国 (Germany) 37 - mao
-  - 🇩🇪 德国 (Germany) 38 - mao
-  - 🇩🇪 德国 (Germany) 39 - mao
-  - 🇩🇪 德国 (Germany) 40 - mao
-  - 🇩🇪 德国 (Germany) 41 - mao
-  - 🇩🇪 德国 (Germany) 42 - mao
-  - 🇩🇪 德国 (Germany) 43 - mao
-  - 🇩🇪 德国 (Germany) 44 - mao
-  - 🇩🇪 德国 (Germany) 45 - mao
-  - 🇩🇪 德国 (Germany) 46 - mao
-  - 🇩🇪 德国 (Germany) 47 - mao
-  - 🇩🇪 德国 (Germany) 48 - mao
-  - 🇩🇪 德国 (Germany) 49 - mao
-  - 🇩🇪 德国 (Germany) 50 - mao
-  - 🇩🇪 德国 (Germany) 51 - mao
-  - 🇩🇪 德国 (Germany) 52 - mao
 rules:
 - MATCH,PROXIES
