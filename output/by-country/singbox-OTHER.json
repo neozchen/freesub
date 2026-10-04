@@ -6,9 +6,9 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - mao",
-      "server": "cctvhikvision.center",
+      "server": "hikvision-plus.com",
       "server_port": 2052,
-      "uuid": "a2c57a6c-dacb-44d1-9055-fb42d4c888a5",
+      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
       "transport": {
         "type": "ws",
         "path": "/@BlueKnight_net--@BlueKnight_net",
@@ -18,27 +18,47 @@
       }
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🌐 其他地区 (Other) 02 - mao",
-      "server": "104.21.72.213",
+      "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "a2c57a6c-dacb-44d1-9055-fb42d4c888a5",
+      "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "pew.dianawmoon.dpdns.org",
+        "server_name": "www.volumeroot.com",
         "insecure": false,
         "alpn": [
           "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
+        ]
       },
       "transport": {
-        "type": "httpupgrade",
-        "path": "/27729/dianahtupgd",
-        "host": "pew.dianawmoon.dpdns.org"
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.volumeroot.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🌐 其他地区 (Other) 03 - mao",
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "//assignment",
+        "headers": {
+          "Host": "www.calmlunch.com"
+        }
       }
     },
     {
@@ -47,7 +67,8 @@
       "outbounds": [
         "auto",
         "🌐 其他地区 (Other) 01 - mao",
-        "🌐 其他地区 (Other) 02 - mao"
+        "🌐 其他地区 (Other) 02 - mao",
+        "🌐 其他地区 (Other) 03 - mao"
       ]
     },
     {
@@ -55,7 +76,8 @@
       "tag": "auto",
       "outbounds": [
         "🌐 其他地区 (Other) 01 - mao",
-        "🌐 其他地区 (Other) 02 - mao"
+        "🌐 其他地区 (Other) 02 - mao",
+        "🌐 其他地区 (Other) 03 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
