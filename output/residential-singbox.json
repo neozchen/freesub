@@ -4,20 +4,50 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - mao",
-      "server": "78bc7982-tmm5c0-u0aht1-1rz5s.hk3.hyhuawei.com",
-      "server_port": 443,
-      "password": "40e084d6-0316-11f0-90e2-f23c913c8d2b",
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - mao",
+      "server": "212.74.39.235",
+      "server_port": 2053,
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 02 (家宽) - mao",
+      "server": "116.204.164.27",
+      "server_port": 7443,
+      "uuid": "3e438472-0f1e-4bbf-be5a-67d034afd8c0",
       "tls": {
         "enabled": true,
-        "server_name": "78bc7982-tmm5c0-u0aht1-1rz5s.hk3.hyhuawei.com",
-        "insecure": true
+        "server_name": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - mao",
+      "server": "116.49.85.111",
+      "server_port": 443,
+      "password": "5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b",
+      "tls": {
+        "enabled": true,
+        "server_name": "007618a8-tmm5c0-tvvhcz-tl32.hk3.hyhuawei.com",
+        "insecure": false
       }
     },
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - mao",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - mao",
       "server": "172.66.152.4",
       "server_port": 443,
       "uuid": "08aaab35-a42d-4755-a03e-20c18cb1b3e8",
@@ -35,20 +65,44 @@
       }
     },
     {
+      "type": "tuic",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - mao",
+      "server": "tw1.dexlos.com",
+      "server_port": 8080,
+      "uuid": "D7286728-678E-443B-B76B-B699654C66DD",
+      "password": "D7286728-678E-443B-B76B-B699654C66DD",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "tls": {
+        "enabled": true,
+        "server_name": "tw1.dexlos.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - mao",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - mao"
+        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - mao",
+        "🇯🇵 日本 (Japan) 02 (家宽) - mao",
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - mao",
+        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - mao",
+        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - mao"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - mao",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - mao"
+        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - mao",
+        "🇯🇵 日本 (Japan) 02 (家宽) - mao",
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - mao",
+        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - mao",
+        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
