@@ -4,35 +4,20 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - mao",
-      "server": "185.193.29.123",
-      "server_port": 443,
-      "uuid": "1d16c6e0-1bbe-435b-b661-90043fee999c",
+      "server": "srv-17e124.21freedom.net",
+      "server_port": 11592,
+      "password": "41edb44c8e",
       "tls": {
         "enabled": true,
-        "server_name": "notls.lukongtou.eu.org",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "Telegram-WangCai2🇨🇳",
-        "headers": {
-          "Host": "notls.lukongtou.eu.org"
-        }
+        "server_name": "srv-17e124.21freedom.net",
+        "insecure": true
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - mao",
-      "server": "194.87.196.13",
-      "server_port": 10771,
-      "method": "aes-256-gcm",
-      "password": "4938e975724d0ed1"
-    },
-    {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - mao",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - mao",
       "server": "45.12.75.242",
       "server_port": 26424,
       "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
@@ -56,8 +41,7 @@
       "outbounds": [
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 - mao",
-        "🇷🇺 俄罗斯 (Russia) 02 - mao",
-        "🇷🇺 俄罗斯 (Russia) 03 - mao"
+        "🇷🇺 俄罗斯 (Russia) 02 - mao"
       ]
     },
     {
@@ -65,8 +49,7 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - mao",
-        "🇷🇺 俄罗斯 (Russia) 02 - mao",
-        "🇷🇺 俄罗斯 (Russia) 03 - mao"
+        "🇷🇺 俄罗斯 (Russia) 02 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
