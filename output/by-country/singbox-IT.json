@@ -4,19 +4,19 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇮🇹 意大利 (Italy) 01 - mao",
+      "server": "57.131.48.45",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321"
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇹 意大利 (Italy) 02 - mao",
       "server": "204.216.216.23",
       "server_port": 10086,
       "uuid": "9f0285ee-20ca-4953-bcdb-86a920652923"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇮🇹 意大利 (Italy) 02 - mao",
-      "server": "185.164.175.81",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "vless",
@@ -40,33 +40,13 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇮🇹 意大利 (Italy) 04 - mao",
-      "server": "80.211.27.249",
-      "server_port": 443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "tls": {
-        "enabled": true,
-        "server_name": "fzo5i.ir46.90k.hh.ov0.kdns.fr",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/glasspanel/guest000_0_5de14443985f/",
-        "headers": {
-          "Host": "fzo5i.ir46.90k.hh.ov0.kdns.fr"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇮🇹 意大利 (Italy) 01 - mao",
         "🇮🇹 意大利 (Italy) 02 - mao",
-        "🇮🇹 意大利 (Italy) 03 - mao",
-        "🇮🇹 意大利 (Italy) 04 - mao"
+        "🇮🇹 意大利 (Italy) 03 - mao"
       ]
     },
     {
@@ -75,8 +55,7 @@
       "outbounds": [
         "🇮🇹 意大利 (Italy) 01 - mao",
         "🇮🇹 意大利 (Italy) 02 - mao",
-        "🇮🇹 意大利 (Italy) 03 - mao",
-        "🇮🇹 意大利 (Italy) 04 - mao"
+        "🇮🇹 意大利 (Italy) 03 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

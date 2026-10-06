@@ -6,6 +6,29 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 01 - mao",
+      "server": "94.143.231.146",
+      "server_port": 443,
+      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
+      "tls": {
+        "enabled": true,
+        "server_name": "sub.merky.top",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/merky-connect/de6/",
+        "headers": {
+          "Host": "sub.merky.top"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 02 - mao",
       "server": "132.243.231.4",
       "server_port": 443,
       "uuid": "87fd990d-ca93-440a-bbd4-e8281c4a0910",
@@ -25,18 +48,41 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 03 - mao",
+      "server": "45.12.28.108",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "fzo5i.ir46.90k.hh.ov0.kdns.fr",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/glasspanel/guest000_0_5de14443985f/",
+        "headers": {
+          "Host": "fzo5i.ir46.90k.hh.ov0.kdns.fr"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇪 瑞典 (Sweden) 01 - mao"
+        "🇸🇪 瑞典 (Sweden) 01 - mao",
+        "🇸🇪 瑞典 (Sweden) 02 - mao",
+        "🇸🇪 瑞典 (Sweden) 03 - mao"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇪 瑞典 (Sweden) 01 - mao"
+        "🇸🇪 瑞典 (Sweden) 01 - mao",
+        "🇸🇪 瑞典 (Sweden) 02 - mao",
+        "🇸🇪 瑞典 (Sweden) 03 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
