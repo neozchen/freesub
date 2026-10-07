@@ -4,26 +4,30 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇹🇭 泰国 (Thailand) 01 - mao",
-      "server": "119.46.51.45",
-      "server_port": 37515,
-      "uuid": "9b76bc31-17a5-4454-934a-8d5fb602cd70",
-      "security": "auto"
+      "type": "hysteria2",
+      "tag": "🇨🇿 捷克 (Czech) 01 - mao",
+      "server": "cz.h2.cleanersaz.help",
+      "server_port": 443,
+      "password": "c-E0lamG8OnEj9M_uh3oJPmIXqYIVGctO-NHELF1TmNYs7Jl",
+      "tls": {
+        "enabled": true,
+        "server_name": "cz.h2.cleanersaz.help",
+        "insecure": true
+      }
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 泰国 (Thailand) 01 - mao"
+        "🇨🇿 捷克 (Czech) 01 - mao"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 泰国 (Thailand) 01 - mao"
+        "🇨🇿 捷克 (Czech) 01 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
