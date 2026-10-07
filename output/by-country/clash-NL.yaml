@@ -5,105 +5,105 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇳🇱 荷兰 (Netherlands) 01 - mao
-  server: 108.181.126.122
+  server: 108.181.58.239
   port: 8388
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: CJmTCCx7Ltud
 - name: 🇳🇱 荷兰 (Netherlands) 02 - mao
-  server: 82.38.31.26
+  server: 193.29.139.151
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 🇳🇱 荷兰 (Netherlands) 03 - mao
-  server: 158.173.20.208
+  server: 109.201.152.181
   port: 443
   udp: true
   type: ss
-  cipher: aes-128-gcm
+  cipher: aes-128-cfb
   password: shadowsocks
 - name: 🇳🇱 荷兰 (Netherlands) 04 - mao
-  server: c3.nastuh.link
+  server: 20.101.46.229
   port: 443
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: y7KeRTzmH0vXT2kp
 - name: 🇳🇱 荷兰 (Netherlands) 05 - mao
-  server: 82.38.31.174
+  server: 193.29.139.212
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  password: QCXDxuDlTTMD7jtgHUjIoj
 - name: 🇳🇱 荷兰 (Netherlands) 06 - mao
-  server: 82.38.31.2
+  server: 82.38.31.204
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  password: k1dBOmOB4oqi7Ump37a1bQ
 - name: 🇳🇱 荷兰 (Netherlands) 07 - mao
-  server: 82.38.31.49
+  server: 82.38.31.156
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 🇳🇱 荷兰 (Netherlands) 08 - mao
-  server: 82.38.31.42
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 09 - mao
-  server: 82.38.31.39
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 10 - mao
-  server: 193.29.139.197
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 11 - mao
   server: 82.38.31.159
   port: 443
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 12 - mao
+- name: 🇳🇱 荷兰 (Netherlands) 09 - mao
+  server: 193.29.139.204
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 10 - mao
+  server: 52.143.57.34
+  port: 443
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: y7KeRTzmH0vXT2kp
+- name: 🇳🇱 荷兰 (Netherlands) 11 - mao
   server: 82.38.31.61
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 12 - mao
+  server: 193.29.139.198
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
 - name: 🇳🇱 荷兰 (Netherlands) 13 - mao
-  server: 82.38.31.155
+  server: 82.38.31.174
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 🇳🇱 荷兰 (Netherlands) 14 - mao
-  server: 193.29.139.235
+  server: 82.38.31.2
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 🇳🇱 荷兰 (Netherlands) 15 - mao
-  server: 193.29.139.204
+  server: 82.38.31.39
   port: 8080
   udp: true
   type: ss
@@ -117,111 +117,174 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
 - name: 🇳🇱 荷兰 (Netherlands) 17 - mao
-  server: 82.38.31.194
+  server: 82.38.31.216
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
 - name: 🇳🇱 荷兰 (Netherlands) 18 - mao
-  server: 82.38.31.17
+  server: 82.38.31.66
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 🇳🇱 荷兰 (Netherlands) 19 - mao
-  server: 82.38.31.171
-  port: 443
+  server: 82.38.31.49
+  port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 🇳🇱 荷兰 (Netherlands) 20 - mao
-  server: 82.38.31.192
-  port: 8080
+  server: 82.38.31.170
+  port: 443
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 🇳🇱 荷兰 (Netherlands) 21 - mao
-  server: 193.29.139.179
+  server: 82.38.31.183
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  password: k1dBOmOB4oqi7Ump37a1bQ
 - name: 🇳🇱 荷兰 (Netherlands) 22 - mao
-  server: 193.29.139.212
+  server: 82.38.31.198
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
+  password: k1dBOmOB4oqi7Ump37a1bQ
 - name: 🇳🇱 荷兰 (Netherlands) 23 - mao
-  server: 82.38.31.179
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 24 - mao
-  server: 82.38.31.201
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 25 - mao
-  server: 82.38.31.208
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 26 - mao
-  server: 82.38.31.203
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 27 - mao
-  server: 82.38.31.46
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 28 - mao
-  server: 82.38.31.210
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 29 - mao
-  server: 193.29.139.202
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 30 - mao
-  server: 82.38.31.13
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 31 - mao
   server: 82.38.31.162
   port: 443
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 24 - mao
+  server: 193.29.139.132
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 25 - mao
+  server: 82.38.31.201
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 26 - mao
+  server: 82.38.31.171
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 27 - mao
+  server: 82.38.31.175
+  port: 443
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 28 - mao
+  server: 158.173.20.208
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇳🇱 荷兰 (Netherlands) 29 - mao
+  server: 82.38.31.7
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 30 - mao
+  server: 185.170.211.189
+  port: 443
+  udp: true
+  type: vless
+  uuid: 267b3a79-81f2-42ac-a409-c23b05b6329d
+  tls: true
+  reality-opts:
+    public-key: eztZ1H-OkkHao6d4FhX8Q728qN1UIeFcYH2jObRq1gc
+    short-id: fbe9c012125d90d2
+  servername: nl2.bbobr.win
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: api.v2.nl2e63a0c5
+- name: 🇳🇱 荷兰 (Netherlands) 31 - mao
+  server: 193.29.139.202
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 🇳🇱 荷兰 (Netherlands) 32 - mao
+  server: 82.38.31.13
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 33 - mao
+  server: 82.38.31.179
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 34 - mao
+  server: 82.38.31.69
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 35 - mao
+  server: 82.38.31.26
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 36 - mao
+  server: 185.170.211.197
+  port: 443
+  udp: true
+  type: vless
+  uuid: 267b3a79-81f2-42ac-a409-c23b05b6329d
+  tls: true
+  reality-opts:
+    public-key: eZXyfQzQgQSreAbhKSorx38cgnKmGuSOiQbthBfG5k0
+    short-id: 0e903b415d812c59
+  servername: nl6.bbobr.win
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: api.v2.nl6d19f4b7
+- name: 🇳🇱 荷兰 (Netherlands) 37 - mao
+  server: 51.158.206.97
+  port: 23576
+  udp: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  servername: fuck.rkn
+  client-fingerprint: random
+- name: 🇳🇱 荷兰 (Netherlands) 38 - mao
   server: 51.158.206.8
   port: 23576
   udp: true
@@ -234,29 +297,8 @@ proxies:
     short-id: '01'
   servername: fuck.rkn
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 33 - mao
-  server: 82.38.31.199
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 34 - mao
-  server: 82.38.31.186
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 35 - mao
-  server: 82.38.31.9
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 36 - mao
-  server: 51.158.206.80
+- name: 🇳🇱 荷兰 (Netherlands) 39 - mao
+  server: 51.158.206.93
   port: 23576
   udp: true
   type: vless
@@ -268,35 +310,8 @@ proxies:
     short-id: '01'
   servername: fuck.rkn
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 37 - mao
-  server: 82.38.31.36
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 38 - mao
-  server: 51.158.206.19
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: ''
-- name: 🇳🇱 荷兰 (Netherlands) 39 - mao
-  server: 82.38.31.171
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 🇳🇱 荷兰 (Netherlands) 40 - mao
-  server: 51.158.206.97
+  server: 51.158.206.87
   port: 23576
   udp: true
   type: vless
@@ -309,42 +324,39 @@ proxies:
   servername: fuck.rkn
   client-fingerprint: ''
 - name: 🇳🇱 荷兰 (Netherlands) 41 - mao
-  server: 82.38.31.82
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 42 - mao
-  server: 82.38.31.66
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 43 - mao
-  server: 193.29.139.235
-  port: 443
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 44 - mao
-  server: 82.38.31.219
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-- name: 🇳🇱 荷兰 (Netherlands) 45 - mao
   server: 82.38.31.149
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 46 - mao
-  server: 51.158.206.96
+- name: 🇳🇱 荷兰 (Netherlands) 42 - mao
+  server: 51.158.206.103
+  port: 23576
+  udp: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  servername: fuck.rkn
+  client-fingerprint: random
+- name: 🇳🇱 荷兰 (Netherlands) 43 - mao
+  server: 31.77.114.114
+  port: 443
+  udp: true
+  type: vless
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
+    short-id: db04ce8bdb8900f1
+  servername: api.vk.me
+  client-fingerprint: random
+- name: 🇳🇱 荷兰 (Netherlands) 44 - mao
+  server: 51.158.206.98
   port: 23576
   udp: true
   type: vless
@@ -356,18 +368,37 @@ proxies:
     short-id: '01'
   servername: fuck.rkn
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 47 - mao
-  server: 185.253.96.117
-  port: 443
+- name: 🇳🇱 荷兰 (Netherlands) 45 - mao
+  server: 51.158.206.19
+  port: 23576
   udp: true
   type: vless
-  uuid: aa923621-7ac0-482b-9ae8-e5dbb2ecae26
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: KvA_7sxZDOMVLEvh64rAKk8jn5XiC-zV47zJIqny2nY
-    short-id: fbc37648292d5393
-  servername: www.datadoghq.com
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 46 - mao
+  server: 193.29.139.225
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 47 - mao
+  server: 162.35.242.252
+  port: 443
+  udp: true
+  type: vless
+  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
+  tls: true
+  reality-opts:
+    public-key: ClG6fvriBTK8donGsTlKusJ0dwRCgVDDTAGzAtZzJDY
+    short-id: 82c2b7d5e70ff000
+  servername: nl.aksay.pro
   client-fingerprint: firefox
 - name: 🇳🇱 荷兰 (Netherlands) 48 - mao
   server: 51.158.206.25
@@ -383,7 +414,7 @@ proxies:
   servername: fuck.rkn
   client-fingerprint: chrome
 - name: 🇳🇱 荷兰 (Netherlands) 49 - mao
-  server: 51.158.206.98
+  server: 51.158.206.26
   port: 23576
   udp: true
   type: vless
@@ -392,11 +423,10 @@ proxies:
   tls: true
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
   servername: fuck.rkn
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇳🇱 荷兰 (Netherlands) 50 - mao
-  server: 51.158.206.93
+  server: 51.158.206.80
   port: 23576
   udp: true
   type: vless
@@ -409,29 +439,25 @@ proxies:
   servername: fuck.rkn
   client-fingerprint: ''
 - name: 🇳🇱 荷兰 (Netherlands) 51 - mao
-  server: 163.172.214.188
-  port: 80
-  udp: true
-  type: vless
-  uuid: 40cc9b52-25b8-4cd5-8b45-715ae26e6baf
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: SC-TheNetherlands1.09vpn.com
-- name: 🇳🇱 荷兰 (Netherlands) 52 - mao
-  server: 2.27.39.233
+  server: nl5.freekeysh110.online
   port: 443
   udp: true
   type: vless
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  uuid: 89041d8a-0357-4342-b32f-f791c03048d2
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 5tMM2VdgddmxOKhdNa3b7i_aXno1g-_61SzkppS2UXQ
-    short-id: f3c023cc
-  servername: addons.mozilla.org
-  client-fingerprint: chrome
+    public-key: sgPREsDFJUchKawgXgFGEM4YBjTDur0rgD2GuQmZXzA
+    short-id: 04b9f0b2470fae16
+  servername: nl5.freekeysh110.online
+  client-fingerprint: edge
+- name: 🇳🇱 荷兰 (Netherlands) 52 - mao
+  server: 193.29.139.179
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
 - name: 🇳🇱 荷兰 (Netherlands) 53 - mao
   server: 51.158.206.34
   port: 23576
@@ -446,7 +472,7 @@ proxies:
   servername: fuck.rkn
   client-fingerprint: ''
 - name: 🇳🇱 荷兰 (Netherlands) 54 - mao
-  server: 51.158.206.103
+  server: 51.158.206.96
   port: 23576
   udp: true
   type: vless
@@ -459,44 +485,19 @@ proxies:
   servername: fuck.rkn
   client-fingerprint: chrome
 - name: 🇳🇱 荷兰 (Netherlands) 55 - mao
-  server: 2.27.39.1
+  server: free-amsterdam-node-1.cloudwidecdn.com
   port: 443
   udp: true
   type: vless
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  uuid: 44ae52b9-76fc-444d-8e43-186b4384b80a
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: -u9DSQ5RMebplY_ti-Vy4BJP9dEoQ1lTOvjoxK8CqS4
-    short-id: '10358810'
-  servername: addons.mozilla.org
-  client-fingerprint: firefox
+    public-key: PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU
+    short-id: 1d86d17709852910
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇳🇱 荷兰 (Netherlands) 56 - mao
-  server: 51.158.206.26
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-  servername: fuck.rkn
-  client-fingerprint: random
-- name: 🇳🇱 荷兰 (Netherlands) 57 - mao
-  server: 87.58.201.170
-  port: 443
-  udp: true
-  type: vless
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  tls: true
-  servername: d3-nl1.cloud-cdn.xyz
-  skip-cert-verify: false
-  client-fingerprint: edge
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vlgrpc
-- name: 🇳🇱 荷兰 (Netherlands) 58 - mao
   server: 51.158.206.86
   port: 23576
   udp: true
@@ -508,55 +509,8 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   servername: fuck.rkn
-  client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 59 - mao
-  server: 51.158.206.87
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 60 - mao
-  server: 109.235.49.234
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 529f1911-04d5-4427-94b9-c851fd459a27
-  sni: tcp-reset-club.net
-  skip-cert-verify: false
-- name: 🇳🇱 荷兰 (Netherlands) 61 - mao
-  server: 87.199.205.28
-  port: 443
-  udp: true
-  type: vless
-  uuid: 501a2da5-cb22-4a3f-915e-e3b821d1d62d
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: W-9zyiOq287RtXVTZlTFbSDJ0Mx8joyBLJoA7ZE7eBw
-    short-id: ef1d3554c652a436
-  servername: vkvd754.okcdn.ru
-  client-fingerprint: qq
-- name: 🇳🇱 荷兰 (Netherlands) 62 - mao
-  server: 2.27.71.48
-  port: 443
-  udp: true
-  type: vless
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: FTB4bvTP-3JAbScj_vvkIOPFGjtN2TaNTUfeY-Ew8EU
-    short-id: 4d767145
-  servername: addons.mozilla.org
-  client-fingerprint: randomized
-- name: 🇳🇱 荷兰 (Netherlands) 63 - mao
+  client-fingerprint: ''
+- name: 🇳🇱 荷兰 (Netherlands) 57 - mao
   server: 130.12.242.106
   port: 443
   udp: true
@@ -569,8 +523,41 @@ proxies:
     short-id: 15affa0af66dfc79
   servername: deepl.com
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 64 - mao
-  server: 51.158.206.29
+- name: 🇳🇱 荷兰 (Netherlands) 58 - mao
+  server: 82.38.31.42
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 荷兰 (Netherlands) 59 - mao
+  server: 2.27.39.233
+  port: 443
+  udp: true
+  type: vless
+  uuid: e60a2499-c5bf-4ad6-86b0-8af0bd3c0bbf
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 5tMM2VdgddmxOKhdNa3b7i_aXno1g-_61SzkppS2UXQ
+    short-id: f3c023cc
+  servername: addons.mozilla.org
+  client-fingerprint: randomized
+- name: 🇳🇱 荷兰 (Netherlands) 60 - mao
+  server: 87.199.205.28
+  port: 443
+  udp: true
+  type: vless
+  uuid: 501a2da5-cb22-4a3f-915e-e3b821d1d62d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: W-9zyiOq287RtXVTZlTFbSDJ0Mx8joyBLJoA7ZE7eBw
+    short-id: ef1d3554c652a436
+  servername: vkvd754.okcdn.ru
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 61 - mao
+  server: 51.158.206.20
   port: 23576
   udp: true
   type: vless
@@ -581,7 +568,55 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
   servername: fuck.rkn
   client-fingerprint: random
+- name: 🇳🇱 荷兰 (Netherlands) 62 - mao
+  server: 2.27.71.54
+  port: 443
+  udp: true
+  type: vless
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: -u9DSQ5RMebplY_ti-Vy4BJP9dEoQ1lTOvjoxK8CqS4
+    short-id: '10358810'
+  servername: addons.mozilla.org
+  client-fingerprint: randomized
+- name: 🇳🇱 荷兰 (Netherlands) 63 - mao
+  server: 38.180.120.254
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5b5e4cbf-2366-499a-8327-0cd9918c687d
+  flow: xtls-rprx-vision
+  tls: true
+  servername: cdn1.surfweb.club
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇳🇱 荷兰 (Netherlands) 64 - mao
+  server: 2.27.71.48
+  port: 443
+  udp: true
+  type: vless
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: FTB4bvTP-3JAbScj_vvkIOPFGjtN2TaNTUfeY-Ew8EU
+    short-id: 4d767145
+  servername: addons.mozilla.org
+  client-fingerprint: randomized
 - name: 🇳🇱 荷兰 (Netherlands) 65 - mao
+  server: 8.47.69.0
+  port: 443
+  udp: true
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇳🇱 荷兰 (Netherlands) 66 - mao
   server: 151.243.173.119
   port: 33736
   udp: true
@@ -592,14 +627,51 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess-ws
-- name: 🇳🇱 荷兰 (Netherlands) 66 - mao
-  server: 193.29.139.151
+- name: 🇳🇱 荷兰 (Netherlands) 67 - mao
+  server: 109.121.44.61
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2feda6f7-8baa-4591-a851-1e2037a58572
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw
+    short-id: 4a1b0c7d
+  servername: s3-m.perecmusic.ru
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 68 - mao
+  server: 82.38.31.185
   port: 8080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 67 - mao
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 荷兰 (Netherlands) 69 - mao
+  server: 51.158.206.29
+  port: 23576
+  udp: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 70 - mao
+  server: 163.172.214.188
+  port: 80
+  udp: true
+  type: vless
+  uuid: 40cc9b52-25b8-4cd5-8b45-715ae26e6baf
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: SC-TheNetherlands1.09vpn.com
+- name: 🇳🇱 荷兰 (Netherlands) 71 - mao
   server: 72.56.85.221
   port: 443
   udp: true
@@ -611,50 +683,6 @@ proxies:
     public-key: uTOxHZkQuw_YnO3GEIV0jDkVNOsOPQrTIPdRb2Rk8DQ
     short-id: 00353c
   servername: apple.com
-  client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 68 - mao
-  server: 87.58.201.211
-  port: 443
-  udp: true
-  type: vless
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  tls: true
-  servername: d3-nl1.cloud-cdn.xyz
-  skip-cert-verify: false
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vlgrpc
-- name: 🇳🇱 荷兰 (Netherlands) 69 - mao
-  server: 193.29.139.225
-  port: 8080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 荷兰 (Netherlands) 70 - mao
-  server: 162.35.242.252
-  port: 443
-  udp: true
-  type: vless
-  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
-  tls: true
-  reality-opts:
-    public-key: ClG6fvriBTK8donGsTlKusJ0dwRCgVDDTAGzAtZzJDY
-    short-id: 82c2b7d5e70ff000
-  servername: nl.aksay.pro
-  client-fingerprint: chrome
-- name: 🇳🇱 荷兰 (Netherlands) 71 - mao
-  server: 51.158.206.20
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
   client-fingerprint: chrome
 - name: 🇳🇱 荷兰 (Netherlands) 72 - mao
   server: 51.158.206.12
@@ -670,49 +698,45 @@ proxies:
   servername: fuck.rkn
   client-fingerprint: chrome
 - name: 🇳🇱 荷兰 (Netherlands) 73 - mao
-  server: 147.45.61.213
+  server: 185.253.96.117
   port: 443
   udp: true
   type: vless
-  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+  uuid: aa923621-7ac0-482b-9ae8-e5dbb2ecae26
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: fiH8cNK7JlHGz6hHHjmsspRdnjpemaq1Q_xmP8a5FHo
-    short-id: a47d71c75bb8be07
-  servername: nl4.nztvpn.com
-  client-fingerprint: safari
+    public-key: KvA_7sxZDOMVLEvh64rAKk8jn5XiC-zV47zJIqny2nY
+    short-id: fbc37648292d5393
+  servername: www.datadoghq.com
+  client-fingerprint: firefox
 - name: 🇳🇱 荷兰 (Netherlands) 74 - mao
-  server: 199.232.78.159
+  server: 193.29.139.168
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+- name: 🇳🇱 荷兰 (Netherlands) 75 - mao
+  server: 188.42.145.180
   port: 443
   udp: true
-  type: vless
-  uuid: 6ead3f4c-023f-4322-b5c4-ac4e327d259d
-  tls: true
-  servername: ssl.fastly.com
-  skip-cert-verify: false
+  type: trojan
+  password: humanity
+  sni: www.volumeroot.com
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
-    headers:
-      Host: pannn1.global.ssl.fastly.net
-- name: 🇳🇱 荷兰 (Netherlands) 75 - mao
-  server: 89.125.96.75
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  tls: true
-  servername: wss.zazazuza.ru
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
+    path: /assignment
 - name: 🇳🇱 荷兰 (Netherlands) 76 - mao
-  server: 172.67.139.14
+  server: 193.29.139.234
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+- name: 🇳🇱 荷兰 (Netherlands) 77 - mao
+  server: 203.202.232.211
   port: 443
   udp: true
   type: trojan
@@ -722,6 +746,19 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
+- name: 🇳🇱 荷兰 (Netherlands) 78 - mao
+  server: 185.112.59.210
+  port: 443
+  udp: true
+  type: vless
+  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: MTYXgxLIK9PzmQGAjuCmhI1FikCNlvU66NKgQ5g14Bc
+    short-id: 0b135481ea1283fc
+  servername: nl2.nztvpn.com
+  client-fingerprint: safari
 proxy-groups:
 - name: PROXIES
   type: select
@@ -803,6 +840,8 @@ proxy-groups:
   - 🇳🇱 荷兰 (Netherlands) 74 - mao
   - 🇳🇱 荷兰 (Netherlands) 75 - mao
   - 🇳🇱 荷兰 (Netherlands) 76 - mao
+  - 🇳🇱 荷兰 (Netherlands) 77 - mao
+  - 🇳🇱 荷兰 (Netherlands) 78 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -884,5 +923,7 @@ proxy-groups:
   - 🇳🇱 荷兰 (Netherlands) 74 - mao
   - 🇳🇱 荷兰 (Netherlands) 75 - mao
   - 🇳🇱 荷兰 (Netherlands) 76 - mao
+  - 🇳🇱 荷兰 (Netherlands) 77 - mao
+  - 🇳🇱 荷兰 (Netherlands) 78 - mao
 rules:
 - MATCH,PROXIES
