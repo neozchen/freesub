@@ -5,20 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇪 爱沙尼亚 (Estonia) 01 - mao
-  server: 89.125.13.202
-  port: 443
+  server: 94.183.170.135
+  port: 8443
   udp: true
   type: vless
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-  flow: xtls-rprx-vision
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   tls: true
-  reality-opts:
-    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
-    short-id: ad6e08b22389abd2
-  servername: d3-ee1.cloud-cdn.xyz
-  client-fingerprint: chrome
+  servername: estproxy4.lockdwn.com
+  skip-cert-verify: false
 - name: 🇪🇪 爱沙尼亚 (Estonia) 02 - mao
-  server: 77.72.85.247
+  server: 77.72.85.246
   port: 8443
   udp: true
   type: vless
@@ -32,14 +28,17 @@ proxies:
     headers:
       Host: fdghyt.com
 - name: 🇪🇪 爱沙尼亚 (Estonia) 03 - mao
-  server: 94.183.170.135
-  port: 8443
+  server: 89.125.13.202
+  port: 443
   udp: true
   type: vless
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  flow: xtls-rprx-vision
   tls: true
-  servername: estproxy4.lockdwn.com
-  skip-cert-verify: false
+  reality-opts:
+    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
+    short-id: ad6e08b22389abd2
+  servername: d3-ee1.cloud-cdn.xyz
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
