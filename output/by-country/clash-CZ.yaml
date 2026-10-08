@@ -4,28 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇬 KG 01 - mao
-  server: 104.16.246.173
+- name: 🇨🇿 捷克 (Czech) 01 - mao
+  server: cz.h2.cleanersaz.help
   port: 443
   udp: true
-  type: trojan
-  password: '123456'
-  sni: now-pages-sub-em4.pages.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
+  type: hysteria2
+  password: c-E0lamG8OnEj9M_uh3oJPmIXqYIVGctO-NHELF1TmNYs7Jl
+  sni: cz.h2.cleanersaz.help
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇬 KG 01 - mao
+  - 🇨🇿 捷克 (Czech) 01 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇬 KG 01 - mao
+  - 🇨🇿 捷克 (Czech) 01 - mao
 rules:
 - MATCH,PROXIES
