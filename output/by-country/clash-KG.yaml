@@ -4,24 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇬 保加利亚 (Bulgaria) 01 - mao
-  server: 213.183.63.60
-  port: 9030
+- name: 🇰🇬 KG 01 - mao
+  server: 104.16.246.173
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: GeregetR8cvQHzYr
+  type: trojan
+  password: '123456'
+  sni: now-pages-sub-em4.pages.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇬 保加利亚 (Bulgaria) 01 - mao
+  - 🇰🇬 KG 01 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇬 保加利亚 (Bulgaria) 01 - mao
+  - 🇰🇬 KG 01 - mao
 rules:
 - MATCH,PROXIES

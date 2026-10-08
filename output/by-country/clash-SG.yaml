@@ -5,88 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇬 新加坡 (Singapore) 01 - mao
-  server: 172.67.130.187
-  port: 2083
-  udp: true
-  type: vless
-  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
-  tls: true
-  servername: fans.liverpool.qzz.io
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: fans.liverpool.qzz.io
-- name: 🇸🇬 新加坡 (Singapore) 02 - mao
-  server: 45.130.125.207
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 31aa0950-eb19-45ff-94a2-af416deb3b90
-  tls: true
-  servername: SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: square-salad-ebde.zdfgvccfguuyggg.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 03 - mao
-  server: 172.67.187.167
-  port: 443
-  udp: true
-  type: vless
-  uuid: 5d4f5139-6965-42ed-8dba-fe3ef9fed7c1
-  tls: true
-  servername: 022xW1dMCzG0c6165PCla6.TOMBorn69.woRKERS.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/fw89i0TpKDRV7i25w2uWIf?ed=2560
-    headers:
-      Host: 022xw1dmczg0c6165pcla6.tomborn69.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 04 - mao
-  server: 104.17.3.81
-  port: 443
-  udp: true
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  tls: true
-  servername: nautica-cff.kloningstrife002.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /138.2.74.219-28616
-    headers:
-      Host: nautica-cff.kloningstrife002.workers.dev
-- name: 🇸🇬 新加坡 (Singapore) 05 - mao
   server: 68.183.227.45
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 06 - mao
-  server: 149.88.23.202
-  port: 18000
-  udp: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-- name: 🇸🇬 新加坡 (Singapore) 07 - mao
+- name: 🇸🇬 新加坡 (Singapore) 02 - mao
   server: 68.183.227.4
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 08 - mao
+- name: 🇸🇬 新加坡 (Singapore) 03 - mao
   server: ww11.levikogjgfdd.ir
   port: 18000
   udp: true
@@ -94,42 +26,22 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
-- name: 🇸🇬 新加坡 (Singapore) 09 - mao
-  server: 128.199.172.224
-  port: 8080
+- name: 🇸🇬 新加坡 (Singapore) 04 - mao
+  server: 149.88.23.202
+  port: 18000
   udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 10 - mao
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+- name: 🇸🇬 新加坡 (Singapore) 05 - mao
   server: 68.183.227.236
   port: 8080
   udp: true
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
-- name: 🇸🇬 新加坡 (Singapore) 11 - mao
-  server: 138.2.73.238
-  port: 50160
-  udp: true
-  type: hysteria2
-  password: f87376e17da040ed04c9665ce8972930
-  sni: 138.2.73.238
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 12 - mao
-  server: 54.251.9.130
-  port: 24146
-  udp: true
-  type: vless
-  uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo
-    short-id: 7205d9079521832c
-  servername: www.intel.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 13 - mao
+- name: 🇸🇬 新加坡 (Singapore) 06 - mao
   server: 139.180.146.200
   port: 8886
   udp: true
@@ -137,49 +49,52 @@ proxies:
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   sni: 139.180.146.200
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 14 - mao
-  server: real-cardinal.rooster465.autos
-  port: 443
+- name: 🇸🇬 新加坡 (Singapore) 07 - mao
+  server: 68.183.235.122
+  port: 8080
   udp: true
-  type: trojan
-  password: UX82473651
-  sni: real-cardinal.rooster465.autos
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 08 - mao
+  server: 128.199.172.224
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇸🇬 新加坡 (Singapore) 09 - mao
+  server: 138.2.73.238
+  port: 50160
+  udp: true
+  type: hysteria2
+  password: f87376e17da040ed04c9665ce8972930
+  sni: 'off'
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 15 - mao
-  server: 46.137.202.178
-  port: 12512
+- name: 🇸🇬 新加坡 (Singapore) 10 - mao
+  server: support.zoom.us
+  port: 80
   udp: true
   type: vless
-  uuid: 2a6c617d-98e4-49c3-95ab-76f02fcf0150
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA
-    short-id: e692a8250d2e2fd0
-  servername: www.intel.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 16 - mao
-  server: 3.0.111.82
-  port: 12972
+  uuid: a57223c7-3581-4fec-9bc4-ad5c30900efb
+  network: ws
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: 🇸🇬 新加坡 (Singapore) 11 - mao
+  server: 217.217.254.126
+  port: 2053
   udp: true
   type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
+  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
   tls: true
   reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  servername: www.apple.com
-  client-fingerprint: ios
-- name: 🇸🇬 新加坡 (Singapore) 17 - mao
-  server: 56.10.9.77
-  port: 443
-  udp: true
-  type: trojan
-  password: UX82473651
-  sni: inviting-ferret.rooster465.autos
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡 (Singapore) 18 - mao
+    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
+    short-id: 87829de0e2bb82cb
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 12 - mao
   server: 139.162.27.96
   port: 2096
   udp: true
@@ -193,16 +108,54 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: 🇸🇬 新加坡 (Singapore) 19 - mao
-  server: 18.143.92.167
+- name: 🇸🇬 新加坡 (Singapore) 13 - mao
+  server: asia.csmaster.site
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 799b1006-3255-4e36-8ea0-64fe24d2bfa7
+  tls: true
+  servername: asia.csmaster.site
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇸🇬 新加坡 (Singapore) 14 - mao
+  server: 56.10.9.77
   port: 443
   udp: true
   type: trojan
   password: UX82473651
-  sni: glowing-marmoset.rooster465.autos
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 20 - mao
-  server: 103.25.202.102
+  sni: inviting-ferret.rooster465.autos
+  skip-cert-verify: false
+- name: 🇸🇬 新加坡 (Singapore) 15 - mao
+  server: 176.97.64.118
+  port: 9443
+  udp: true
+  type: vless
+  uuid: 52d5defc-88f6-4c2c-9b1f-c19bf3e99778
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  servername: www.amazon.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 16 - mao
+  server: free.nadun.store
+  port: 443
+  udp: true
+  type: vless
+  uuid: 20ff936a-8eb5-4d27-9cce-93f2016d467b
+  tls: true
+  servername: free.nadun.store
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇸🇬 新加坡 (Singapore) 17 - mao
+  server: 161.33.29.51
   port: 443
   udp: true
   type: vless
@@ -216,56 +169,36 @@ proxies:
     path: /
     headers:
       Host: asia.csmaster.site
-- name: 🇸🇬 新加坡 (Singapore) 21 - mao
-  server: free.nadun.store
-  port: 443
+- name: 🇸🇬 新加坡 (Singapore) 18 - mao
+  server: 54.169.200.246
+  port: 41688
   udp: true
   type: vless
-  uuid: 20ff936a-8eb5-4d27-9cce-93f2016d467b
+  uuid: 49c0aac1-5e05-4f04-b624-248fc59e03c4
+  flow: xtls-rprx-vision
   tls: true
-  servername: free.nadun.store
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇸🇬 新加坡 (Singapore) 22 - mao
-  server: pet-antelope.rooster465.autos
-  port: 443
-  udp: true
-  type: trojan
-  password: UX82473651
-  sni: pet-antelope.rooster465.autos
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡 (Singapore) 23 - mao
-  server: 173.234.14.85
-  port: 2096
+  reality-opts:
+    public-key: srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk
+    short-id: 7f342137c20387
+  servername: www.intel.com
+  client-fingerprint: random
+- name: 🇸🇬 新加坡 (Singapore) 19 - mao
+  server: 170.114.46.6
+  port: 8443
   udp: true
   type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
   tls: true
-  servername: free-server.techsonic.dev
+  servername: primelinelk.me
   skip-cert-verify: false
   client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /free-server.techsonic.dev
+    path: /xprolk-primeline
     headers:
-      Host: free-server.techsonic.dev
-- name: 🇸🇬 新加坡 (Singapore) 24 - mao
-  server: 79.108.225.112
-  port: 8443
-  udp: true
-  type: vless
-  uuid: c3369c07-f0d2-4a2c-97ab-0d3d47803912
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1KY_jqa2yPLBEBa-3TG77zs4ak2zQLGul4eexxCueyI
-  servername: github.com
-  client-fingerprint: safari
-- name: 🇸🇬 新加坡 (Singapore) 25 - mao
-  server: sg2-8sb.6121999.dpdns.org
+      Host: primelinelk.me
+- name: 🇸🇬 新加坡 (Singapore) 20 - mao
+  server: 146.235.16.130
   port: 19825
   udp: true
   type: vless
@@ -276,16 +209,16 @@ proxies:
     public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
     short-id: 6ba85179e30d4fc2
   servername: sg2-8sb.6121999.dpdns.org
-  client-fingerprint: random
-- name: 🇸🇬 新加坡 (Singapore) 26 - mao
-  server: 13.212.81.3
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 21 - mao
+  server: 18.143.92.167
   port: 443
   udp: true
   type: trojan
   password: UX82473651
-  sni: holy-lamb.rooster465.autos
+  sni: glowing-marmoset.rooster465.autos
   skip-cert-verify: false
-- name: 🇸🇬 新加坡 (Singapore) 27 - mao
+- name: 🇸🇬 新加坡 (Singapore) 22 - mao
   server: 3.0.111.82
   port: 10574
   udp: true
@@ -298,59 +231,23 @@ proxies:
     short-id: 48050fab
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 28 - mao
-  server: 217.217.254.126
-  port: 2053
+- name: 🇸🇬 新加坡 (Singapore) 23 - mao
+  server: 13.212.81.3
+  port: 443
   udp: true
-  type: vless
-  uuid: cb15cce9-73ed-4928-b38c-462f0732cbe9
-  tls: true
-  reality-opts:
-    public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
-    short-id: 87829de0e2bb82cb
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 29 - mao
-  server: asia.csmaster.site
-  port: 8443
+  type: trojan
+  password: UX82473651
+  sni: holy-lamb.rooster465.autos
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 24 - mao
+  server: real-cardinal.rooster465.autos
+  port: 443
   udp: true
-  type: vless
-  uuid: 799b1006-3255-4e36-8ea0-64fe24d2bfa7
-  tls: true
-  servername: asia.csmaster.site
+  type: trojan
+  password: UX82473651
+  sni: real-cardinal.rooster465.autos
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: asia.csmaster.site
-- name: 🇸🇬 新加坡 (Singapore) 30 - mao
-  server: 45.80.111.45
-  port: 8880
-  udp: true
-  type: vless
-  uuid: 5ffd914e-9594-4198-8327-145f096f8e4c
-  network: ws
-  ws-opts:
-    path: /cdn/assets/stream
-    headers:
-      Host: cnd.singapure.mygold.stream
-- name: 🇸🇬 新加坡 (Singapore) 31 - mao
-  server: support.zoom.us
-  port: 8443
-  udp: true
-  type: vless
-  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
-  tls: true
-  servername: primelinelk.me
-  skip-cert-verify: false
-  client-fingerprint: safari
-  network: ws
-  ws-opts:
-    path: /xprolk-primeline
-    headers:
-      Host: primelinelk.me
-- name: 🇸🇬 新加坡 (Singapore) 32 - mao
+- name: 🇸🇬 新加坡 (Singapore) 25 - mao
   server: 3.0.111.82
   port: 17623
   udp: true
@@ -362,7 +259,7 @@ proxies:
     public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
     short-id: 48050fab
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: safari
 proxy-groups:
 - name: PROXIES
   type: select
@@ -393,13 +290,6 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 23 - mao
   - 🇸🇬 新加坡 (Singapore) 24 - mao
   - 🇸🇬 新加坡 (Singapore) 25 - mao
-  - 🇸🇬 新加坡 (Singapore) 26 - mao
-  - 🇸🇬 新加坡 (Singapore) 27 - mao
-  - 🇸🇬 新加坡 (Singapore) 28 - mao
-  - 🇸🇬 新加坡 (Singapore) 29 - mao
-  - 🇸🇬 新加坡 (Singapore) 30 - mao
-  - 🇸🇬 新加坡 (Singapore) 31 - mao
-  - 🇸🇬 新加坡 (Singapore) 32 - mao
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -430,12 +320,5 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 23 - mao
   - 🇸🇬 新加坡 (Singapore) 24 - mao
   - 🇸🇬 新加坡 (Singapore) 25 - mao
-  - 🇸🇬 新加坡 (Singapore) 26 - mao
-  - 🇸🇬 新加坡 (Singapore) 27 - mao
-  - 🇸🇬 新加坡 (Singapore) 28 - mao
-  - 🇸🇬 新加坡 (Singapore) 29 - mao
-  - 🇸🇬 新加坡 (Singapore) 30 - mao
-  - 🇸🇬 新加坡 (Singapore) 31 - mao
-  - 🇸🇬 新加坡 (Singapore) 32 - mao
 rules:
 - MATCH,PROXIES

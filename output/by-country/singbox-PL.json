@@ -6,44 +6,44 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 01 - mao",
-      "server": "64.176.73.20",
-      "server_port": 443,
-      "uuid": "5b5e4cbf-2366-499a-8327-0cd9918c687d",
-      "flow": "xtls-rprx-vision",
+      "server": "95.85.253.241",
+      "server_port": 2053,
+      "uuid": "ee0a38e3-d148-48ac-ba99-5133446c2377",
       "tls": {
         "enabled": true,
-        "server_name": "storage.surfweb.club",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "server_name": "95.85.253.241",
+        "insecure": false
       }
     },
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 02 - mao",
-      "server": "81.90.20.200",
-      "server_port": 443,
-      "uuid": "51c14658-8873-4454-9383-c41fc80bde4b",
-      "flow": "xtls-rprx-vision",
+      "server": "95.85.253.241",
+      "server_port": 2087,
+      "uuid": "ee0a38e3-d148-48ac-ba99-5133446c2377",
       "tls": {
         "enabled": true,
-        "server_name": "pl.pupoe.sbs",
+        "server_name": "95.85.253.241",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         }
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 03 - mao",
+      "server": "70.34.255.101",
+      "server_port": 80,
+      "uuid": "a889262f-5fe3-4c93-9aaa-3721318dd389",
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇵🇱 波兰 (Poland) 04 - mao",
       "server": "202.78.163.237",
       "server_port": 443,
       "password": "UX82473651",
@@ -55,7 +55,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 04 - mao",
+      "tag": "🇵🇱 波兰 (Poland) 05 - mao",
       "server": "70.34.252.154",
       "server_port": 80,
       "uuid": "d9c7ec1f-5aa3-469a-b860-760c686806b0",
@@ -65,38 +65,15 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 05 - mao",
-      "server": "70.34.255.101",
-      "server_port": 80,
-      "uuid": "a889262f-5fe3-4c93-9aaa-3721318dd389",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇵🇱 波兰 (Poland) 06 - mao",
-      "server": "92.118.150.146",
-      "server_port": 443,
-      "password": "Trojan@82164024",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl.tronsg.com",
-        "insecure": false
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇵🇱 波兰 (Poland) 07 - mao",
+      "tag": "🇵🇱 波兰 (Poland) 06 - mao",
       "server": "144.31.49.47",
       "server_port": 443,
       "password": "YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc",
       "tls": {
         "enabled": true,
         "server_name": "admin.wwwinternetvideo.click",
-        "insecure": true
+        "insecure": false
       }
     },
     {
@@ -109,8 +86,7 @@
         "🇵🇱 波兰 (Poland) 03 - mao",
         "🇵🇱 波兰 (Poland) 04 - mao",
         "🇵🇱 波兰 (Poland) 05 - mao",
-        "🇵🇱 波兰 (Poland) 06 - mao",
-        "🇵🇱 波兰 (Poland) 07 - mao"
+        "🇵🇱 波兰 (Poland) 06 - mao"
       ]
     },
     {
@@ -122,8 +98,7 @@
         "🇵🇱 波兰 (Poland) 03 - mao",
         "🇵🇱 波兰 (Poland) 04 - mao",
         "🇵🇱 波兰 (Poland) 05 - mao",
-        "🇵🇱 波兰 (Poland) 06 - mao",
-        "🇵🇱 波兰 (Poland) 07 - mao"
+        "🇵🇱 波兰 (Poland) 06 - mao"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
